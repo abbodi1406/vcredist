@@ -58,6 +58,69 @@ original installation script
 - For command-line options and examples, run:  
 `VisualCppRedist_AIO_x86_x64.exe /?`
 
+```
+Usage:  
+VisualCppRedist_AIO_x86_x64.exe [switches]  
+All switches are optional, case-sensitive.
+
+/y  
+Passive mode, shows progress but requires no user interaction. *All* Runtime packages are installed.  
+/ai  
+Quiet mode, no user input required or output shown. *All* Runtime packages are installed.  
+/ai5  
+Quiet mode. *Only* 2005 package is installed.  
+/ai8  
+Quiet mode. *Only* 2008 package is installed.  
+/aiX  
+Quiet mode. *Only* 2010 package is installed.  
+/ai2  
+Quiet mode. *Only* 2012 package is installed.  
+/ai3  
+Quiet mode. *Only* 2013 package is installed.  
+/ai7  
+Quiet mode. *Only* 2017 package is installed.  
+/aiO  
+Quiet mode. *Only* VSTOR 2010 package is installed.  
+/aiE  
+Quiet mode. *Only* Extra VB/C package is installed.  
+/aiV  
+Quiet mode. *Only* VC++ packages are installed.  
+/aiC  
+Passive mode. *All* packages are installed, except UCRT KB3118401.  
+/aiM  
+Manual mode, shows installation script with prompt.  
+/aiU  
+Uninstall mode, remove all detected runtimes.  
+/aiH  
+Hide or Show Runtimes entries in Add/Remove Programs panel.  
+/gm2  
+Optional switch to disable extraction dialog for all other switches  
+/sfxlang:  
+Set the program display language, if possible. Example: /sfxlang:1031  
+/h | /?  
+Display this help.
+
+Examples:
+
+Automatically install all packages and display progress:  
+VisualCppRedist_AIO_x86_x64.exe /y
+
+Silently install all packages and display no progress:  
+VisualCppRedist_AIO_x86_x64.exe /ai /gm2
+
+Silently install 2010 package and display no progress:  
+VisualCppRedist_AIO_x86_x64.exe /aiX
+
+Silently install 2017 package and display no progress:  
+VisualCppRedist_AIO_x86_x64.exe /ai7
+
+Silently install VSTOR 2010 package and display no progress:  
+VisualCppRedist_AIO_x86_x64.exe /aiO
+
+Silently install VC++ redist packages and display no progress:  
+VisualCppRedist_AIO_x86_x64.exe /aiV
+```
+
 - **/y** give the same default behavior, but without the begin prompt and finnish message  
 
 - only **/sfxlang** and **/gm2** can be specified with other switches  
