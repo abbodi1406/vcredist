@@ -24,7 +24,7 @@
 2010: 10.0.40219.473  
 2012: 11.0.61135.400  
 2013: 12.0.40664.0  
-2017: 14.20.27305.0
+2019: Latest
 
 - Visual Studio 2010 Tools for Office Runtime (x86/x64)  
 10.0.60833.0
@@ -35,13 +35,13 @@ Visual C++ 2003: 7.10.6119.0
 Visual Basic Runtimes  
 
 - Universal CRT:  
-complementary part of VC++ 2017 redist.  
+complementary part of VC++ 2019 redist.  
 inbox component for Windows 10.  
 delivered as an update for Windows Vista/7/8/8.1, either in Monthly Quality Rollup, KB3118401, or KB2999226.  
-installed with VC++ 2017 redist for Windows XP.  
+installed with VC++ 2019 redist for Windows XP.  
 this repack will install KB3118401 if UCRT is not available.  
 
-- VC++ 2017 runtimes are binary compatible with VC++ 2015 and cover both VS 2015/2017 applications.
+- VC++ 2019 runtimes are binary compatible with VC++ 2015-2017 and cover all VS 2015-2017-2019 programs.
 
 ## Credits:
 
@@ -77,8 +77,8 @@ Quiet mode. *Only* 2010 package is installed.
 Quiet mode. *Only* 2012 package is installed.  
 /ai3  
 Quiet mode. *Only* 2013 package is installed.  
-/ai7  
-Quiet mode. *Only* 2017 package is installed.  
+/ai9  
+Quiet mode. *Only* 2019 package is installed.  
 /aiO  
 Quiet mode. *Only* VSTOR 2010 package is installed.  
 /aiE  
@@ -91,6 +91,8 @@ Passive mode. *All* packages are installed, except UCRT KB3118401.
 Manual mode, shows installation script with prompt.  
 /aiU  
 Uninstall mode, remove all detected runtimes.  
+/aiD  
+Debug mode, create VCpp_debug.log without install/uninstall any package.  
 /aiH  
 Hide or Show Runtimes entries in Add/Remove Programs panel.  
 /gm2  
@@ -111,14 +113,11 @@ VisualCppRedist_AIO_x86_x64.exe /ai /gm2
 Silently install 2010 package and display no progress:  
 VisualCppRedist_AIO_x86_x64.exe /aiX
 
-Silently install 2017 package and display no progress:  
-VisualCppRedist_AIO_x86_x64.exe /ai7
-
-Silently install VSTOR 2010 package and display no progress:  
-VisualCppRedist_AIO_x86_x64.exe /aiO
+Silently install 2019 package and display no progress:  
+VisualCppRedist_AIO_x86_x64.exe /ai9
 
 Silently install VC++ redist packages and display no progress:  
-VisualCppRedist_AIO_x86_x64.exe /aiV
+VisualCppRedist_AIO_x86_x64.exe /aiV /gm2
 ```
 
 - **/y** give the same default behavior, but without the begin prompt and finnish message  
