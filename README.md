@@ -64,9 +64,11 @@ VisualCppRedist_AIO_x86_x64.exe [switches]
 All switches are optional, case-sensitive.
 
 /y  
-Passive mode, shows progress but requires no user interaction. *All* Runtime packages are installed.  
+Passive mode, shows progress. *All* Runtime packages are installed.  
 /ai  
-Quiet mode, no user input required or output shown. *All* Runtime packages are installed.  
+Quiet mode, no output shown. *All* Runtime packages are installed.  
+/aiA  
+Quiet mode. *All* Runtime packages are installed, and hide ARP entries.  
 /ai5  
 Quiet mode. *Only* 2005 package is installed.  
 /ai8  
@@ -79,22 +81,26 @@ Quiet mode. *Only* 2012 package is installed.
 Quiet mode. *Only* 2013 package is installed.  
 /ai9  
 Quiet mode. *Only* 2019 package is installed.  
-/aiO  
+/aiT  
 Quiet mode. *Only* VSTOR 2010 package is installed.  
 /aiE  
 Quiet mode. *Only* Extra VB/C package is installed.  
 /aiV  
 Quiet mode. *Only* VC++ packages are installed.  
-/aiC  
-Passive mode. *All* packages are installed, except UCRT KB3118401.  
 /aiM  
-Manual mode, shows installation script with prompt.  
+Manual Install mode, shows installation script with prompt.  
 /aiU  
-Uninstall mode, remove all detected runtimes.  
+Manual Uninstall mode, remove all detected runtimes.  
+/aiR  
+Auto Uninstall mode, remove all detected runtimes.  
 /aiD  
 Debug mode, create VCpp_debug.log without install/uninstall any package.  
+/aiP  
+Manual Hide or Show Runtimes entries in Add/Remove Programs panel.  
 /aiH  
-Hide or Show Runtimes entries in Add/Remove Programs panel.  
+Auto Hide Runtimes entries in Add/Remove Programs panel.  
+/aiC  
+Passive mode. *All* packages are installed, except UCRT KB3118401.  
 /gm2  
 Optional switch to disable extraction dialog for all other switches  
 /sfxlang:  
@@ -110,26 +116,29 @@ VisualCppRedist_AIO_x86_x64.exe /y
 Silently install all packages and display no progress:  
 VisualCppRedist_AIO_x86_x64.exe /ai /gm2
 
-Silently install 2010 package and display no progress:  
-VisualCppRedist_AIO_x86_x64.exe /aiX
-
-Silently install 2019 package and display no progress:  
+Silently install 2019 package:  
 VisualCppRedist_AIO_x86_x64.exe /ai9
 
-Silently install VC++ redist packages and display no progress:  
-VisualCppRedist_AIO_x86_x64.exe /aiV /gm2
+Silently install 2010/2012/2013/2019 packages:  
+VisualCppRedist_AIO_x86_x64.exe /aiX239
+
+Silently install VSTOR and Extra VB/C packages:  
+VisualCppRedist_AIO_x86_x64.exe /aiTE
+
+Silently install all packages and hide ARP entries:  
+VisualCppRedist_AIO_x86_x64.exe /aiA /gm2
 ```
 
 - **/y** give the same default behavior, but without the begin prompt and finnish message  
 
 - only **/sfxlang** and **/gm2** can be specified with other switches  
 if other switches specified together, only the latest will have effect. Example, this will only install Extra VB/C package:  
-`/ai5 /ai8 /aiO /aiE`
+`/ai5 /ai8 /aiT /aiE`
+
+- to install separate packages together, combine their latest switch character after **/ai** Example: **/ai58X239E**
 
 - **/sfxlang** most be first switch to have effect. Example:  
 `/sfxlang:1031 /aiV`
-
-- VSTOR switch **/aiO** is letter O not zero 0  
 
 ## [Download](https://tiny.cc/vcredist)
 
