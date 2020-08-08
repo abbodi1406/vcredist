@@ -2,6 +2,13 @@
 
 ## Microsoft Visual C++ 2015-2019 Redistributables - v14
 
+2019 / 14.28.29115.0
+```
+https://download.visualstudio.microsoft.com/download/pr/28bd19d3-af87-4c4e-859f-8a656db29219/9838775699DFCEFC83BD8B6FE9862E16A12E0CD3C707B7DBA6FF83388D90C488/VC_redist.x64.exe
+https://download.visualstudio.microsoft.com/download/pr/6b03c53c-e1f7-4ac0-8e82-a771ef1d6374/7E491DDBCD2DCC25B6038994372A7EE8E15B8771519A09879E2317C35542EB50/VC_redist.x86.exe
+https://download.visualstudio.microsoft.com/download/pr/28bd19d3-af87-4c4e-859f-8a656db29219/2864526FAE9AEECE0A877E50B169A188A029058B21A64F5F27429B5D03AD0010/VC_redist.arm64.exe
+```
+
 2019 / 14.27.29016.0
 ```
 https://download.visualstudio.microsoft.com/download/pr/fd5d2eea-32b8-4814-b55e-28c83dd72d9c/952A0C6CB4A3DD14C3666EF05BB1982C5FF7F87B7103C2BA896354F00651E358/VC_redist.x64.exe
@@ -28,6 +35,13 @@ https://download.visualstudio.microsoft.com/download/pr/3b401cc2-5336-4198-9ede-
 https://download.visualstudio.microsoft.com/download/pr/59b4ca04-67d2-4cd4-bb9e-1373e4539e95/4701B841EBE9BD5DA0AEAD0207982BBD3E84A3D028B69DF0E87B4F5B7B683BBB/VC_redist.x64.exe
 https://download.visualstudio.microsoft.com/download/pr/59b4ca04-67d2-4cd4-bb9e-1373e4539e95/47CEFFE0CB8FD62D0EFA2A79FE18B69148CFB6549B96114278B18D6E16809FD9/VC_redist.x86.exe
 https://download.visualstudio.microsoft.com/download/pr/59b4ca04-67d2-4cd4-bb9e-1373e4539e95/10A159D736D48F7B84184B9B0A32B6C43B19B4ABF43EE2D10FA025A4A2FA6668/VC_redist.arm64.exe
+```
+
+2019 / 14.26.28808.1
+```
+https://download.visualstudio.microsoft.com/download/pr/fba519f2-0344-4b8c-9ced-ed72999dadf3/0FB665AD7CB22984772B144D8E565CDBF65459BA9874D4D102ADACE7C4A89BC8/VC_redist.x64.exe
+https://download.visualstudio.microsoft.com/download/pr/ee3709ed-77df-4b0b-8abf-4da300ef811d/44839D5E96C334EC387F386FC92C22CAE23AB5B8F1613CB9392D210A2E7E9A50/VC_redist.x86.exe
+https://download.visualstudio.microsoft.com/download/pr/6054a747-d3f3-4851-86b8-c005c9633eb3/C1AFCAC3DBB1C972FC5F9B408D1C8435781FE5BA91B11E7DBE2F325AA17969CB/VC_redist.arm64.exe
 ```
 
 2019 / 14.26.28720.3
