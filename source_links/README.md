@@ -2,6 +2,13 @@
 
 ## Microsoft Visual C++ 2015-2019 Redistributables - v14
 
+2019/  14.28.29231.0
+```
+https://download.visualstudio.microsoft.com/download/pr/a23ce03b-5941-42cd-8d3f-9d08296c319f/026850EB3B7A1CBF254B6AFDB9EA9EF1172251883FE79491D5B839AC77B59882/VC_redist.x64.exe
+https://download.visualstudio.microsoft.com/download/pr/49eb0868-9b72-47af-a707-d34b004b2751/1E5D1DEA8C582B4BA3BE56199A472C58483252D0BAABF1E61287F8978A6160CD/VC_redist.x86.exe
+https://download.visualstudio.microsoft.com/download/pr/a23ce03b-5941-42cd-8d3f-9d08296c319f/13FCD8BF1E138BB748E8D7FB868C5E79BBFB6D1F7FE92025DB0029DE58E24B91/VC_redist.arm64.exe
+```
+
 2019 / 14.28.29213.0
 ```
 https://download.visualstudio.microsoft.com/download/pr/566435ac-4e1c-434b-b93f-aecc71e8cffc/B75590149FA14B37997C35724BC93776F67E08BFF9BD5A69FACBF41B3846D084/VC_redist.x64.exe
@@ -585,6 +592,8 @@ https://1drv.ms/u/s!AlaD0_9bis3SgZBu1LmVQrMDUKZCaQ
 https://www.microsoft.com/en-us/download/details.aspx?id=26368
 http://download.microsoft.com/download/5/D/8/5D8C65CB-C849-4025-8E95-C3966CAFD8AE/vcredist_x64.exe
 http://download.microsoft.com/download/5/D/8/5D8C65CB-C849-4025-8E95-C3966CAFD8AE/vcredist_x86.exe
+http://download.windowsupdate.com/msdownload/update/software/secu/2011/05/vcredist_x64_a7c83077b8a28d409e36316d2d7321fa0ccdb7e8.exe
+http://download.windowsupdate.com/msdownload/update/software/secu/2011/05/vcredist_x86_470640aa4bb7db8e69196b5edb0010933569e98d.exe
 ```
 
 2008 SP1 / 9.0.30729.4148
