@@ -30,7 +30,7 @@ https://download.visualstudio.microsoft.com/download/pr/49eb0868-9b72-47af-a707-
 https://download.visualstudio.microsoft.com/download/pr/a23ce03b-5941-42cd-8d3f-9d08296c319f/13FCD8BF1E138BB748E8D7FB868C5E79BBFB6D1F7FE92025DB0029DE58E24B91/VC_redist.arm64.exe
 ```
 
-2019 / 14.28.29213.0
+2019 / 14.28.29213.0 - **last version compatible with Windows XP**
 ```
 https://download.visualstudio.microsoft.com/download/pr/566435ac-4e1c-434b-b93f-aecc71e8cffc/B75590149FA14B37997C35724BC93776F67E08BFF9BD5A69FACBF41B3846D084/VC_redist.x64.exe
 https://download.visualstudio.microsoft.com/download/pr/566435ac-4e1c-434b-b93f-aecc71e8cffc/0D59EC7FDBF05DE813736BF875CEA5C894FFF4769F60E32E87BD48406BBF0A3A/VC_redist.x86.exe

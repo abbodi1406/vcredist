@@ -43,6 +43,10 @@ this repack will install KB3118401 if UCRT is not available.
 
 - VC++ 2019 runtimes are binary compatible with VC++ 2015-2017 and cover all VS 2015-2017-2019 programs.
 
+## Windows XP Notice:
+
+* VC++ 2019 version 14.28.29213.0 = VisualCppRedist_AIO_x86_x64_35.zip is the last version compatible with Windows XP
+
 ## Credits:
 
 - [@ricktendo64](https://forums.mydigitallife.net/members/28038/) / MDL forums - repacks.net - wincert.net  
