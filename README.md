@@ -45,7 +45,7 @@ this repack will install KB3118401 if UCRT is not available.
 
 ## Windows XP Notice:
 
-* VC++ 2019 version 14.28.29213.0 = VisualCppRedist_AIO_x86_x64_35.zip is the last version compatible with Windows XP
+* VC++ 2019 version 14.28.29213.0 = [VisualCppRedist_AIO v0.35.0](https://github.com/abbodi1406/vcredist/releases/tag/v0.35.0) is the last version compatible with Windows XP
 
 ## Credits:
 
