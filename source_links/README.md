@@ -2,6 +2,13 @@
 
 ## Microsoft Visual C++ 2015-2019 Redistributables - v14
 
+2019 / 14.28.29715.1
+```
+https://download.visualstudio.microsoft.com/download/pr/7f220946-40a5-4478-be8f-ffb38fbdc485/7B8A8AAF09DF235B0E7010C66A0F71BE796E052FDC8A36B6950A9CB76C540C23/VC_redist.x64.exe
+https://download.visualstudio.microsoft.com/download/pr/7f220946-40a5-4478-be8f-ffb38fbdc485/AB233EA4C28D73DD6F2CBA125B7934A734A851DA7D4E21AEFA508F650AE330D8/VC_redist.x86.exe
+https://download.visualstudio.microsoft.com/download/pr/7f220946-40a5-4478-be8f-ffb38fbdc485/D1D41A1B63FCF767F78560C982C230E4C2D3CAE0D54EF13CD5D183DAA7889179/VC_redist.arm64.exe
+```
+
 2019 / 14.28.29617.0
 ```
 https://download.visualstudio.microsoft.com/download/pr/1415835d-76a5-42c8-9aeb-baa77ae9f964/D0290C14D84DD077D443CD9E51C8E5A1443AA3363F06A2BA84D1FDE4637441EE/VC_redist.x64.exe
