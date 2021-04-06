@@ -5,6 +5,13 @@
 <details><summary>2019</summary>
 
 
+14.29.30031.0
+```
+https://download.visualstudio.microsoft.com/download/pr/319c0957-2c9f-44b9-9a40-9511a06acda2/84D968AF8984532A4263D1E09808175794EB27ABE90BCF518DD4F35F84DBB65C/VC_redist.x64.exe
+https://download.visualstudio.microsoft.com/download/pr/a59bd032-813f-4f57-9f01-c7eae0225894/BBF0FF79C8CFF26C68AD960E09854F2CC19417F7F0C59F95A9B077E3B4DE2A85/VC_redist.x86.exe
+https://download.visualstudio.microsoft.com/download/pr/a59bd032-813f-4f57-9f01-c7eae0225894/1B570D25A8C982911041ACA89FB139C5B62CE628D7BB412AD641BCDED866CB9B/VC_redist.arm64.exe
+```
+
 14.29.30030.0
 ```
 https://download.visualstudio.microsoft.com/download/pr/8848a076-abd9-4f93-b981-aaca5c41577e/F0F192C83B44626B2760EDC79248C09C4FF5F73F66F1D243B6A93F8715F723EB/VC_redist.x64.exe
@@ -619,6 +626,8 @@ https://www.microsoft.com/en-us/download/details.aspx?id=30679
 http://download.microsoft.com/download/1/6/B/16B06F60-3B20-4FF2-B699-5E9B7962F9AE/VSU_4/vcredist_x64.exe
 http://download.microsoft.com/download/1/6/B/16B06F60-3B20-4FF2-B699-5E9B7962F9AE/VSU_4/vcredist_x86.exe
 http://download.microsoft.com/download/1/6/B/16B06F60-3B20-4FF2-B699-5E9B7962F9AE/VSU4/vcredist_arm.exe
+http://download.windowsupdate.com/d/msdownload/update/software/crup/2015/02/vcredist_x64_1a5d93dddbc431ab27b1da711cd3370891542797.exe
+http://download.windowsupdate.com/d/msdownload/update/software/crup/2015/02/vcredist_x86_96b377a27ac5445328cbaae210fc4f0aaa750d3f.exe
 ```
 
 11.0.60610.1
