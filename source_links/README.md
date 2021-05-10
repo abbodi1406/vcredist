@@ -8,7 +8,7 @@
 14.29.30129.1
 ```
 https://download.visualstudio.microsoft.com/download/pr/ea091104-d377-43ed-9fe9-7ef21137e1fb/36F6A5DB117FB5877839FAFF89ABBE03C277620C24719700CFD0A063B02A1446/VC_redist.x64.exe
-https://download.visualstudio.microsoft.com/download/pr/483f9e2c-b56f-45ab-ae40-2a98c5f7a701/7C5F76E70608BCF384BE577397B09E3CBB784607FF37D38551543EF564EA624D/VC_redist.x86.exe
+https://download.visualstudio.microsoft.com/download/pr/9bc0b76f-ce24-4207-9dd4-5f1dc47da1d6/A8401D39E8A2F6CAA3FF9A93591ADD7B8A04526C1472C4F6D4DBBC26A2614387/VC_redist.x86.exe
 https://download.visualstudio.microsoft.com/download/pr/432cecc3-0564-4844-b029-25989c5de206/ADD2E4ACB75D94B570F6D53B7581FB0B5310B71F8023D119857A452416B1B62C/VC_redist.arm64.exe
 ```
 
