@@ -5,6 +5,34 @@
 <details><summary>2019</summary>
 
 
+14.29.30129.1
+```
+https://download.visualstudio.microsoft.com/download/pr/ea091104-d377-43ed-9fe9-7ef21137e1fb/36F6A5DB117FB5877839FAFF89ABBE03C277620C24719700CFD0A063B02A1446/VC_redist.x64.exe
+https://download.visualstudio.microsoft.com/download/pr/483f9e2c-b56f-45ab-ae40-2a98c5f7a701/7C5F76E70608BCF384BE577397B09E3CBB784607FF37D38551543EF564EA624D/VC_redist.x86.exe
+https://download.visualstudio.microsoft.com/download/pr/432cecc3-0564-4844-b029-25989c5de206/ADD2E4ACB75D94B570F6D53B7581FB0B5310B71F8023D119857A452416B1B62C/VC_redist.arm64.exe
+```
+
+14.29.30035.0
+```
+https://download.visualstudio.microsoft.com/download/pr/3ce3714c-165a-42ba-94f0-97ede790bbbd/983389F4D7C874DCB3D2C4337CC07F111F4E1D23DEDEFCCBEF8D296F260F623C/VC_redist.x64.exe
+https://download.visualstudio.microsoft.com/download/pr/3ce3714c-165a-42ba-94f0-97ede790bbbd/29D4839EA2843D9C69DA2CBE44DC8FD9CCFA5BD7BA9EB4E006EC232413E5468E/VC_redist.x86.exe
+https://download.visualstudio.microsoft.com/download/pr/f0c36734-5ab0-4dc1-b6b8-5a9023335572/8EAC3C9DD165553119066C04128304C4CCD1179C6BBF6E273A7126B8D00632BF/VC_redist.arm64.exe
+```
+
+14.29.30034.3
+```
+https://download.visualstudio.microsoft.com/download/pr/356ea9c9-ef22-443a-90e1-0d51c9752f04/21E179D5DFC8B3F28FEA90F5B5FD7E070BAE714D98A50759DEFD04922A6C18F1/VC_redist.x64.exe
+https://download.visualstudio.microsoft.com/download/pr/483f9e2c-b56f-45ab-ae40-2a98c5f7a701/7C5F76E70608BCF384BE577397B09E3CBB784607FF37D38551543EF564EA624D/VC_redist.x86.exe
+https://download.visualstudio.microsoft.com/download/pr/483f9e2c-b56f-45ab-ae40-2a98c5f7a701/8B197118CAAE7657F564FE0A21BF9DD5B8104F536ECCBD68D9CFBFA4EB3A5061/VC_redist.arm64.exe
+```
+
+14.29.30032.0
+```
+https://download.visualstudio.microsoft.com/download/pr/85f76fda-9ac8-457e-8ed9-f2dd6415464a/7B1BCC31157882835ED6B576EE43738F127BFD6FB1BA8BD292DAF32388D3A20D/VC_redist.x64.exe
+https://download.visualstudio.microsoft.com/download/pr/85f76fda-9ac8-457e-8ed9-f2dd6415464a/8FC7C0A46495F7A9C24B9ED840B5509D08FE12D3F7652FE469F341B564646C05/VC_redist.x86.exe
+https://download.visualstudio.microsoft.com/download/pr/85f76fda-9ac8-457e-8ed9-f2dd6415464a/C79AFC30650FF9F6158EE6DF1FEC0B704CD2A4A69D3FA21BFA321B860E81ECEB/VC_redist.arm64.exe
+```
+
 14.29.30031.0
 ```
 https://download.visualstudio.microsoft.com/download/pr/319c0957-2c9f-44b9-9a40-9511a06acda2/84D968AF8984532A4263D1E09808175794EB27ABE90BCF518DD4F35F84DBB65C/VC_redist.x64.exe
@@ -796,11 +824,6 @@ http://download.microsoft.com/download/8/B/4/8B42259F-5D70-43F4-AC2E-4B208FD8D66
 http://download.microsoft.com/download/8/B/4/8B42259F-5D70-43F4-AC2E-4B208FD8D66A/vcredist_x86.exe
 http://download.windowsupdate.com/msdownload/update/software/secu/2011/06/vcredist_x64_ee916012783024dac67fc606457377932c826f05.exe
 http://download.windowsupdate.com/msdownload/update/software/secu/2011/06/vcredist_x86_b8fab0bb7f62a24ddfe77b19cd9a1451abd7b847.exe
-```
-
-8.0.50727.5672 SP1
-```
-TBD
 ```
 
 8.0.50727.4053 (MSI 8.0.59192/8.0.59193) SP1
