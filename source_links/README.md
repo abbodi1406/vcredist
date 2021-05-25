@@ -5,11 +5,25 @@
 <details><summary>2019</summary>
 
 
+14.29.30129.3
+```
+https://download.visualstudio.microsoft.com/download/pr/d69d858e-0f8f-4c16-a38f-365d1c3930e5/3CF1F7A29C6111CFD06294A473B3B5276801DA4AB18AA215CAA3F7A996145FA7/VC_redist.x64.exe
+https://download.visualstudio.microsoft.com/download/pr/1b28b620-3102-4db4-bce4-d890b9b35596/126CC1D4A5EE72EE6E2EAFA1CA9AACD6196D7A87B675F3E5E4F5AEAF5B2954A4/VC_redist.x86.exe
+https://download.visualstudio.microsoft.com/download/pr/d69d858e-0f8f-4c16-a38f-365d1c3930e5/DE541A47D1DED1A93454022FF29CF14249FABD497C0567615B77C5DF95E300A2/VC_redist.arm64.exe
+```
+
 14.29.30129.1
 ```
 https://download.visualstudio.microsoft.com/download/pr/ea091104-d377-43ed-9fe9-7ef21137e1fb/36F6A5DB117FB5877839FAFF89ABBE03C277620C24719700CFD0A063B02A1446/VC_redist.x64.exe
 https://download.visualstudio.microsoft.com/download/pr/9bc0b76f-ce24-4207-9dd4-5f1dc47da1d6/A8401D39E8A2F6CAA3FF9A93591ADD7B8A04526C1472C4F6D4DBBC26A2614387/VC_redist.x86.exe
 https://download.visualstudio.microsoft.com/download/pr/432cecc3-0564-4844-b029-25989c5de206/ADD2E4ACB75D94B570F6D53B7581FB0B5310B71F8023D119857A452416B1B62C/VC_redist.arm64.exe
+```
+
+14.29.30037.0
+```
+https://download.visualstudio.microsoft.com/download/pr/bdfb22a4-b1ee-48ab-9b43-70dc88e60347/A1592D3DA2B27230C087A3B069409C1E82C2664B0D4C3B511701624702B2E2A3/VC_redist.x64.exe
+https://download.visualstudio.microsoft.com/download/pr/76a91598-ca94-410b-b874-c7fa26e400da/91C21C93A88DD82E8AE429534DACBC7A4885198361EAE18D82920C714E328CF9/VC_redist.x86.exe
+https://download.visualstudio.microsoft.com/download/pr/bdfb22a4-b1ee-48ab-9b43-70dc88e60347/AD905A6DFD125CFB38472A1B0BA791AEA1A6C8256392093D65F6268AAFD37ED8/VC_redist.arm64.exe
 ```
 
 14.29.30036.3
