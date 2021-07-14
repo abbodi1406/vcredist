@@ -24,7 +24,7 @@
 2010: 10.0.40219.473  
 2012: 11.0.61135.400  
 2013: 12.0.40664.0  
-2019: Latest
+2022: Latest
 
 - Visual Studio 2010 Tools for Office Runtime (x86/x64)  
 10.0.60833.0
@@ -35,13 +35,13 @@ Visual C++ 2003: 7.10.6119.0
 Visual Basic Runtimes  
 
 - Universal CRT:  
-complementary part of VC++ 2019 redist.  
+complementary part of VC++ 2022 redist.  
 inbox component for Windows 10.  
 delivered as an update for Windows Vista/7/8/8.1, either in Monthly Quality Rollup, KB3118401, or KB2999226.  
 installed with VC++ 2019 redist for Windows XP.  
 this repack will install KB3118401 if UCRT is not available.  
 
-- VC++ 2019 runtimes are binary compatible with VC++ 2015-2017 and cover all VS 2015-2017-2019 programs.
+- VC++ 2022 runtimes are binary compatible with VC++ 2015-2017-2019 and cover all VS 2015-2017-2019-2022 programs.
 
 ## Windows XP Notice:
 
@@ -84,7 +84,7 @@ Quiet mode. *Only* 2012 package is installed.
 /ai3  
 Quiet mode. *Only* 2013 package is installed.  
 /ai9  
-Quiet mode. *Only* 2019 package is installed.  
+Quiet mode. *Only* 2022 package is installed.  
 /aiT  
 Quiet mode. *Only* VSTOR 2010 package is installed.  
 /aiE  
@@ -120,10 +120,10 @@ VisualCppRedist_AIO_x86_x64.exe /y
 Silently install all packages and display no progress:  
 VisualCppRedist_AIO_x86_x64.exe /ai /gm2
 
-Silently install 2019 package:  
+Silently install 2022 package:  
 VisualCppRedist_AIO_x86_x64.exe /ai9
 
-Silently install 2010/2012/2013/2019 packages:  
+Silently install 2010/2012/2013/2022 packages:  
 VisualCppRedist_AIO_x86_x64.exe /aiX239
 
 Silently install VSTOR and Extra VB/C packages:  
