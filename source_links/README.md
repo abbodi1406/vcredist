@@ -64,7 +64,6 @@ https://download.visualstudio.microsoft.com/download/pr/ea091104-d377-43ed-9fe9-
 https://download.visualstudio.microsoft.com/download/pr/9bc0b76f-ce24-4207-9dd4-5f1dc47da1d6/A8401D39E8A2F6CAA3FF9A93591ADD7B8A04526C1472C4F6D4DBBC26A2614387/VC_redist.x86.exe
 https://download.visualstudio.microsoft.com/download/pr/432cecc3-0564-4844-b029-25989c5de206/ADD2E4ACB75D94B570F6D53B7581FB0B5310B71F8023D119857A452416B1B62C/VC_redist.arm64.exe
 ```
-```
 
 14.29.30040.0
 ```
