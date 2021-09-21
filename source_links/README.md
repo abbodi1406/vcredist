@@ -32,6 +32,13 @@ ______________________________
 <details><summary>2019</summary>
 
 
+14.29.30135.0
+```
+https://download.visualstudio.microsoft.com/download/pr/e332b62b-e04e-4cbd-8c3b-41bc13761c41/9B9DD72C27AB1DB081DE56BB7B73BEE9A00F60D14ED8E6FDE45DAB3E619B5F04/VC_redist.x64.exe
+https://download.visualstudio.microsoft.com/download/pr/73b58d04-0049-47d1-9f54-1784792c71cd/80C7969F4E05002A0CD820B746E0ACB7406D4B85E52EF096707315B390927824/VC_redist.x86.exe
+https://download.visualstudio.microsoft.com/download/pr/73b58d04-0049-47d1-9f54-1784792c71cd/17EE7CC0974BADB0EBD96C1F55B041EB361E9AED7904D08BC1D5F743B195001F/VC_redist.arm64.exe
+```
+
 14.29.30134.0
 ```
 https://download.visualstudio.microsoft.com/download/pr/6da35dbc-3b1d-4e88-a951-3154fcc00546/FB53A73818CB8B7DB84C5E8CA0455694CA9FAD67213B4603CD210808FA5982FE/VC_redist.x64.exe
