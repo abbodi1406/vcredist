@@ -5,6 +5,13 @@
 <details><summary>2022</summary>
 
 
+14.31.30919.0
+```
+https://download.visualstudio.microsoft.com/download/pr/8c1c2dbb-0856-4dc3-b863-b16c637bc245/C527CE426B8D25CB7D4F577476E984C73E84AAAC3E84730BC118A4E0E0FA3CB0/VC_redist.x64.exe
+https://download.visualstudio.microsoft.com/download/pr/8c1c2dbb-0856-4dc3-b863-b16c637bc245/E55681B9E07A58F7143E5AB5941F45DE0B485E0C9933B0CB6B702D3921F48527/VC_redist.x86.exe
+https://download.visualstudio.microsoft.com/download/pr/8c1c2dbb-0856-4dc3-b863-b16c637bc245/8DDCE24CF44750E2E8230725CD99150671F08DB30C1A515272BC39BB3FEE6829/VC_redist.arm64.exe
+```
+
 14.31.30818.0
 ```
 https://download.visualstudio.microsoft.com/download/pr/ad322fe0-1435-4fa2-9ea4-c6208b41e7d8/66E0B36ACE18FFFF26EC93035CD1D16DA7294D1A9179FC494F1A6DA3F1AE5183/VC_redist.x64.exe
@@ -857,6 +864,13 @@ http://download.microsoft.com/download/A/8/0/A80747C3-41BD-45DF-B505-E9710D2744E
 http://download.microsoft.com/download/C/6/D/C6D0FD4E-9E53-4897-9B91-836EBA2AACD3/vcredist_x86.exe
 ```
 
+10.0.30319.460 RTM
+```
+https://www.microsoft.com/en-us/download/details.aspx?id=26351
+https://gitlab.com/stdout12/adns/uploads/3e276dcc502cef90e93365d5a3b8241e/VCRedist_x64_10.0.30319.460.exe
+https://gitlab.com/stdout12/adns/uploads/2a73615407ff331431df3804786b9824/VCRedist_x86_10.0.30319.460.exe
+```
+
 10.0.30319.415 RTM
 ```
 https://www.microsoft.com/en-us/download/details.aspx?id=21576
@@ -868,10 +882,12 @@ http://download.windowsupdate.com/msdownload/update/software/secu/2011/03/vcredi
 
 10.0.30319.1 RTM
 ```
-https://www.microsoft.com/en-us/download/details.aspx?id=14632
+http://www.microsoft.com/en-us/download/details.aspx?id=14632
 https://www.microsoft.com/en-us/download/details.aspx?id=5555
-http://download.microsoft.com/download/3/2/2/3224B87F-CFA0-4E70-BDA3-3DE650EFEBA5/vcredist_x64.exe
-http://download.microsoft.com/download/5/B/C/5BC5DBB3-652D-4DCE-B14A-475AB85EEF6E/vcredist_x86.exe
+http://web.archive.org/web/20140711193530/http://www.microsoft.com/en-us/download/details.aspx?id=14632
+http://web.archive.org/web/20140702152445/http://www.microsoft.com/en-us/download/details.aspx?id=5555
+http://web.archive.org/web/20140803163818if_/http://download.microsoft.com/download/3/2/2/3224B87F-CFA0-4E70-BDA3-3DE650EFEBA5/vcredist_x64.exe
+http://web.archive.org/web/20140729085618if_/http://download.microsoft.com/download/5/B/C/5BC5DBB3-652D-4DCE-B14A-475AB85EEF6E/vcredist_x86.exe
 https://download.visualstudio.microsoft.com/download/pr/d3a74387-07e3-4f62-b9ba-70972094b9b6/e3bcbbade2a8552a4c34800df7d72301/vc_redist.x64.exe
 ```
 </details>

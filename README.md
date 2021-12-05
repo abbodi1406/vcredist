@@ -36,7 +36,7 @@ Visual Basic Runtimes
 
 - Universal CRT:  
 complementary part of VC++ 2022 redist.  
-inbox component for Windows 10.  
+inbox component for Windows 10/11.  
 delivered as an update for Windows Vista/7/8/8.1, either in Monthly Quality Rollup, KB3118401, or KB2999226.  
 installed with VC++ 2019 redist for Windows XP.  
 this repack will install KB3118401 if UCRT is not available.  
@@ -103,8 +103,8 @@ Debug mode, create VCpp_debug.log without install/uninstall any package.
 Manual Hide or Show Runtimes entries in Add/Remove Programs panel.  
 /aiH  
 Auto Hide Runtimes entries in Add/Remove Programs panel.  
-/aiC  
-Passive mode. *All* packages are installed, except UCRT KB3118401.  
+/ai1  
+Update mode. Only already installed packages are updated.  
 /gm2  
 Optional switch to disable extraction dialog for all other switches  
 /sfxlang:  
