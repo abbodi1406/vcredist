@@ -5,6 +5,13 @@
 <details><summary>2022</summary>
 
 
+14.31.31005.0
+```
+https://download.visualstudio.microsoft.com/download/pr/36270b27-6b33-460f-b309-72fe8ad2e9c1/C3261464D8EA58988BCD946AFD4C82DC64405335C4E9BA75402837AED32F3EFC/VC_redist.x64.exe
+https://download.visualstudio.microsoft.com/download/pr/36270b27-6b33-460f-b309-72fe8ad2e9c1/C160CF4F7405B3AE263A46EC87445F3E851CD64389AEF4A2C2D9029127DF40D5/VC_redist.x86.exe
+https://download.visualstudio.microsoft.com/download/pr/36270b27-6b33-460f-b309-72fe8ad2e9c1/3DA669399E508181E9CAEDC90A6C2A35B202590C86DC9F088476FF8C1A18E757/VC_redist.arm64.exe
+```
+
 14.31.30919.0
 ```
 https://download.visualstudio.microsoft.com/download/pr/8c1c2dbb-0856-4dc3-b863-b16c637bc245/C527CE426B8D25CB7D4F577476E984C73E84AAAC3E84730BC118A4E0E0FA3CB0/VC_redist.x64.exe
@@ -1021,6 +1028,12 @@ ______________________________
 ```
 https://www.microsoft.com/en-us/download/details.aspx?id=6818
 http://download.microsoft.com/download/9/7/C/97CABE46-5FB8-4240-A54E-4C83B99116D9/VS7.1sp1-KB2465373-X86.exe
+```
+
+.NET 2003 MFC71.DLL / 7.10.6101.0 SP1
+```
+https://www.microsoft.com/en-us/download/details.aspx?id=23288
+http://download.microsoft.com/download/D/9/E/D9ECEE52-613F-4327-8147-073882D999F9/VS7.1sp1-KB971089-X86.exe
 ```
 
 .NET 2003 MFC71.DLL / 7.10.6041.0 SP1
