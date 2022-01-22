@@ -5,6 +5,13 @@
 <details><summary>2022</summary>
 
 
+14.31.31103.0
+```
+https://download.visualstudio.microsoft.com/download/pr/d22ecb93-6eab-4ce1-89f3-97a816c55f04/37ED59A66699C0E5A7EBEEF7352D7C1C2ED5EDE7212950A1B0A8EE289AF4A95B/VC_redist.x64.exe
+https://download.visualstudio.microsoft.com/download/pr/8e32d7eb-5130-4dc8-9c3e-5891f375e112/B7AE307237F869E09F7413691A2CD1944357B5CEE28049C0A0D3430B47BB3EDC/VC_redist.x86.exe
+https://download.visualstudio.microsoft.com/download/pr/d22ecb93-6eab-4ce1-89f3-97a816c55f04/4671015C191EF3FD276ECE18BD7A5C6D9BFB7BF475ED6526605C82234BEEA581/VC_redist.arm64.exe
+```
+
 14.31.31005.0
 ```
 https://download.visualstudio.microsoft.com/download/pr/36270b27-6b33-460f-b309-72fe8ad2e9c1/C3261464D8EA58988BCD946AFD4C82DC64405335C4E9BA75402837AED32F3EFC/VC_redist.x64.exe
@@ -24,6 +31,13 @@ https://download.visualstudio.microsoft.com/download/pr/8c1c2dbb-0856-4dc3-b863-
 https://download.visualstudio.microsoft.com/download/pr/ad322fe0-1435-4fa2-9ea4-c6208b41e7d8/66E0B36ACE18FFFF26EC93035CD1D16DA7294D1A9179FC494F1A6DA3F1AE5183/VC_redist.x64.exe
 https://download.visualstudio.microsoft.com/download/pr/d139d1c2-d4a4-4c00-8696-1bb5fdb2827d/C15D42AB8FF9816782869B6F7C50A8D6C542EF9E555E6EA500CE9C3C09CF8138/VC_redist.x86.exe
 https://download.visualstudio.microsoft.com/download/pr/ad322fe0-1435-4fa2-9ea4-c6208b41e7d8/03246F053B35FDCA96A393E217042BC369FCB2760ED5485A878BAB70DD763888/VC_redist.arm64.exe
+```
+
+14.30.30708.0
+```
+https://download.visualstudio.microsoft.com/download/pr/571ad766-28d1-4028-9063-0fa32401e78f/5D3D8C6779750F92F3726C70E92F0F8BF92D3AE2ABD43BA28C6306466DE8A144/VC_redist.x64.exe
+https://download.visualstudio.microsoft.com/download/pr/571ad766-28d1-4028-9063-0fa32401e78f/F02DEA65EA65633D1718E6C5E5EEE7D2DF640D1FFF332E4669DEA530B8C4F0E7/VC_redist.x86.exe
+https://download.visualstudio.microsoft.com/download/pr/571ad766-28d1-4028-9063-0fa32401e78f/E82B93D19330234DA9990744FFE70750A6D154F2D2B17376BFD18747749E236E/VC_redist.arm64.exe
 ```
 
 14.30.30704.0
@@ -1024,37 +1038,48 @@ ______________________________
 <details><summary>2002/2003</summary>
 
 
-.NET 2003 MFC71.DLL / 7.10.6119.0 SP1
+.NET 2003 msvcp71.dll - 7.10.6052.0 SP1 / msvcr71.dll - 7.10.7031.4 SP1
+```
+https://www.betaarchive.com/wiki/index.php/Microsoft_KB_Archive/932298
+http://thehotfixshare.net/board/index.php?/topic/12472-vs71sp1-kb932298-x86-enuexe/
+```
+
+.NET 2003 MFC71.DLL - 7.10.6119.0 SP1
 ```
 https://www.microsoft.com/en-us/download/details.aspx?id=6818
 http://download.microsoft.com/download/9/7/C/97CABE46-5FB8-4240-A54E-4C83B99116D9/VS7.1sp1-KB2465373-X86.exe
 ```
 
-.NET 2003 MFC71.DLL / 7.10.6101.0 SP1
+.NET 2003 MFC71.DLL - 7.10.6101.0 SP1
 ```
 https://www.microsoft.com/en-us/download/details.aspx?id=23288
 http://download.microsoft.com/download/D/9/E/D9ECEE52-613F-4327-8147-073882D999F9/VS7.1sp1-KB971089-X86.exe
 ```
 
-.NET 2003 MFC71.DLL / 7.10.6041.0 SP1
+.NET 2003 MFC71.DLL - 7.10.6041.0 SP1
 ```
 https://www.microsoft.com/en-us/download/details.aspx?id=17054
 http://download.microsoft.com/download/f/0/5/f052914b-3a0f-4e90-b039-395005f77ef2/VS7.1sp1-KB927696-X86.exe
 ```
 
-.NET 2003 MFC71.DLL / 7.10.5057.0 RTM
+.NET 2003 MFC71.DLL - 7.10.5057.0 RTM
 ```
 http://www.microsoft.com/en-us/download/details.aspx?id=21440
 http://download.microsoft.com/download/5/8/6/586ac9db-5039-4955-9dbc-e4556128220f/VS7.1-KB924643-X86.exe
 ```
 
-.NET 2002 MFC70.DLL / 7.0.9975.0 SP1
+.NET 2002 msvcr70.dll - 7.0.9981.0 SP1
+```
+https://www.betaarchive.com/wiki/index.php/Microsoft_KB_Archive/932304
+```
+
+.NET 2002 MFC70.DLL - 7.0.9975.0 SP1
 ```
 https://www.microsoft.com/en-us/download/details.aspx?id=3644
 http://download.microsoft.com/download/6/b/e/6be11d8a-e0c7-429c-ac8c-9860e313ced9/VS7.0sp1-KB924642-X86.exe
 ```
 
-.NET 2002 MFC70.DLL / 7.0.9801.0 RTM
+.NET 2002 MFC70.DLL - 7.0.9801.0 RTM
 ```
 https://www.microsoft.com/en-us/download/details.aspx?id=6430
 http://download.microsoft.com/download/9/8/0/980abbac-26af-42b9-959e-e104e2ef6579/VS7.0-KB924641-X86.exe
@@ -1094,6 +1119,13 @@ http://download.microsoft.com/download/5/6/3/5635D6A9-885E-4C80-A2E7-8A7F4488FBF
 https://support.microsoft.com/en-us/help/957924
 https://www.microsoft.com/en-us/download/details.aspx?id=7030
 http://download.microsoft.com/download/5/6/3/5635D6A9-885E-4C80-A2E7-8A7F4488FBF1/VB60SP6-KB957924-v2-x86-ENU.msi
+```
+
+98.12
+```
+https://support.microsoft.com/en-us/help/926857
+https://www.microsoft.com/en-us/download/details.aspx?id=7474
+http://download.microsoft.com/download/1/A/3/1A30521E-354B-4E4A-9713-7C69199C8447/VB60SP6-KB926857-x86-ENU.msi
 ```
 </details>
 
