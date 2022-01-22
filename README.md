@@ -12,7 +12,7 @@
 
 - The uninstallation option/script will remove any detected VC++ runtimes (except UCRT).
 
-- Windows XP support is partial, the pack will install and detect latest runtimes versions, but it will not check and remove non-compliant versions.
+- Windows XP support is partial, the pack will install and detect the latest runtimes versions, but it will not check and remove non-compliant versions.
 
 - You can extract the installer file with 7-zip or WinRar to a short path, and run Installer.cmd as administrator
 
@@ -35,7 +35,7 @@ Visual C++ 2003: 7.10.6119.0
 Visual Basic Runtimes  
 
 - Universal CRT:  
-complementary part of VC++ 2022 redist.  
+the complementary part of VC++ 2022 redist.  
 inbox component for Windows 10/11.  
 delivered as an update for Windows Vista/7/8/8.1, either in Monthly Quality Rollup, KB3118401, or KB2999226.  
 installed with VC++ 2019 redist for Windows XP.  
@@ -98,7 +98,7 @@ Manual Uninstall mode, remove all detected runtimes.
 /aiR  
 Auto Uninstall mode, remove all detected runtimes.  
 /aiD  
-Debug mode, create VCpp_debug.log without install/uninstall any package.  
+Debug mode, create VCpp_debug.log without installing/uninstalling any package.  
 /aiP  
 Manual Hide or Show Runtimes entries in Add/Remove Programs panel.  
 /aiH  
@@ -133,15 +133,15 @@ Silently install all packages and hide ARP entries:
 VisualCppRedist_AIO_x86_x64.exe /aiA /gm2
 ```
 
-- **/y** give the same default behavior, but without the begin prompt and finnish message  
+- **/y** give the same default behavior, but without the beginning prompt and the finish message  
 
 - only **/sfxlang** and **/gm2** can be specified with other switches  
-if other switches specified together, only the latest will have effect. Example, this will only install Extra VB/C package:  
+if other switches are specified together, only the latest will have an effect. Example, this will only install Extra VB/C package:  
 `/ai5 /ai8 /aiT /aiE`
 
 - to install separate packages together, combine their latest switch character after **/ai** Example: **/ai58X239E**
 
-- **/sfxlang** most be first switch to have effect. Example:  
+- **/sfxlang** must be first switched to have effect. Example:  
 `/sfxlang:1031 /aiV`
 
 ## [Download](https://tiny.cc/vcredist)
