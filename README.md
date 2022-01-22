@@ -144,5 +144,5 @@ if other switches specified together, only the latest will have effect. Example,
 - **/sfxlang** most be first switch to have effect. Example:  
 `/sfxlang:1031 /aiV`
 
-## [Download](https://tiny.cc/vcredist)
-
+## Download
+[Download link and info](https://tiny.cc/vcredist)
