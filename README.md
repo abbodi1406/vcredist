@@ -35,7 +35,7 @@ Visual C++ 2003: 7.10.6119.0
 Visual Basic Runtimes  
 
 - Universal CRT:  
-the complementary part of VC++ 2022 redist.  
+a complementary part of VC++ 2022 redist.  
 inbox component for Windows 10/11.  
 delivered as an update for Windows Vista/7/8/8.1, either in Monthly Quality Rollup, KB3118401, or KB2999226.  
 installed with VC++ 2019 redist for Windows XP.  
@@ -133,7 +133,7 @@ Silently install all packages and hide ARP entries:
 VisualCppRedist_AIO_x86_x64.exe /aiA /gm2
 ```
 
-- **/y** give the same default behavior, but without the beginning prompt and the finish message  
+- **/y** gives the same default behavior, but without the beginning prompt and the finish message  
 
 - only **/sfxlang** and **/gm2** can be specified with other switches  
 if other switches are specified together, only the latest will have an effect. Example, this will only install Extra VB/C package:  
@@ -141,8 +141,10 @@ if other switches are specified together, only the latest will have an effect. E
 
 - to install separate packages together, combine their latest switch character after **/ai** Example: **/ai58X239E**
 
-- **/sfxlang** must be first switched to have effect. Example:  
+- **/sfxlang** must be the first switch to have effect. Example:  
 `/sfxlang:1031 /aiV`
 
-## [Download](https://tiny.cc/vcredist)
+## Download
+
+[Download link and info](https://tiny.cc/vcredist)
 
