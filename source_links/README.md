@@ -5,6 +5,13 @@
 <details><summary>2022</summary>
 
 
+14.32.31326.0
+```
+https://download.visualstudio.microsoft.com/download/pr/6b6923b0-3045-4379-a96f-ef5506a65d5b/426A34C6F10EA8F7DA58A8C976B586AD84DD4BAB42A0CFDBE941F1763B7755E5/VC_redist.x64.exe
+https://download.visualstudio.microsoft.com/download/pr/7ac2a695-28da-49db-8744-9e9ee2502f71/2ACBFE92157C1CF1A7B524A9325824046D83DBFA3FEB1CBD4DD02A42E020F77C/VC_redist.x86.exe
+https://download.visualstudio.microsoft.com/download/pr/6b6923b0-3045-4379-a96f-ef5506a65d5b/6114C0A7A526EA47D9ADD78C718BEA0BA32EEF0826AA5610AF76877CC5FEB7F3/VC_redist.arm64.exe
+```
+
 14.32.31302.0
 ```
 https://download.visualstudio.microsoft.com/download/pr/f359701c-0fda-414e-83c2-31d65ee7f308/4B2947448BF80CC987A440B43A1AA07152B9057915C68930061C74E0B40BA05B/VC_redist.x64.exe
@@ -217,6 +224,13 @@ https://download.visualstudio.microsoft.com/download/pr/8848a076-abd9-4f93-b981-
 https://download.visualstudio.microsoft.com/download/pr/379431f5-ab7c-4c88-b58e-5a17184881a5/50A4B93C2FC33FD09F0F171A8D2E8231B4F641979B77D30137229205BA2EA854/VC_redist.x64.exe
 https://download.visualstudio.microsoft.com/download/pr/379431f5-ab7c-4c88-b58e-5a17184881a5/D57C752BAE4CB387DF0BCA606AAE2FC815608B2257B11AA2236DD346F70E57DE/VC_redist.x86.exe
 https://download.visualstudio.microsoft.com/download/pr/379431f5-ab7c-4c88-b58e-5a17184881a5/BC4F1B0984546BC93CD31BB1948936775D7A30B17AC9776F198B61C9A1A98793/VC_redist.arm64.exe
+```
+
+14.28.29918.0
+```
+https://download.visualstudio.microsoft.com/download/pr/507546ad-70db-490b-b218-4797eadaf29e/7D469B1638E1476B50609DB140B17DAD9EA7AAA60C75C5143A076194DA770057/VC_redist.x64.exe
+https://download.visualstudio.microsoft.com/download/pr/837e6eb3-c125-4658-8e1b-3805aae790eb/791426878CEEBFF91AB9F6339EE69AA604DB691035F79EFF68C0F4C68C6B9B77/VC_redist.x86.exe
+https://download.visualstudio.microsoft.com/download/pr/507546ad-70db-490b-b218-4797eadaf29e/D600266D48AB96AEE6FBFF92A89F0204551E251FB186ABCE5DC1808D280379FC/VC_redist.arm64.exe
 ```
 
 14.29.29917.0
