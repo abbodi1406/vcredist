@@ -5,6 +5,13 @@
 <details><summary>2022</summary>
 
 
+14.32.31332.0
+```
+https://download.visualstudio.microsoft.com/download/pr/ed95ef9e-da02-4735-9064-bd1f7f69b6ed/CE6593A1520591E7DEA2B93FD03116E3FC3B3821A0525322B0A430FAA6B3C0B4/VC_redist.x64.exe
+https://download.visualstudio.microsoft.com/download/pr/ed95ef9e-da02-4735-9064-bd1f7f69b6ed/CF92A10C62FFAB83B4A2168F5F9A05E5588023890B5C0CC7BA89ED71DA527B0F/VC_redist.x86.exe
+https://download.visualstudio.microsoft.com/download/pr/ed95ef9e-da02-4735-9064-bd1f7f69b6ed/8E126191012691AE22A0D5A89FAC01B59BABC7B680E5D9B65828935FD366E375/VC_redist.arm64.exe
+```
+
 14.32.31326.0
 ```
 https://download.visualstudio.microsoft.com/download/pr/6b6923b0-3045-4379-a96f-ef5506a65d5b/426A34C6F10EA8F7DA58A8C976B586AD84DD4BAB42A0CFDBE941F1763B7755E5/VC_redist.x64.exe
@@ -1041,6 +1048,8 @@ http://web.archive.org/web/20121208085931/https://www.microsoft.com/en-us/downlo
 http://web.archive.org/web/20121231225822/https://www.microsoft.com/en-us/download/details.aspx?id=5638
 http://web.archive.org/web/20121208085931/http://download.microsoft.com/download/d/4/1/d41aca8a-faa5-49a7-a5f2-ea0aa4587da0/vcredist_x64.exe
 http://web.archive.org/web/20121231225822/http://download.microsoft.com/download/e/1/c/e1c773de-73ba-494a-a5ba-f24906ecf088/vcredist_x86.exe
+https://msassist.com/files/VisualCPP/VisualCpp2005-SP1b/vcredist_x64.exe
+https://msassist.com/files/VisualCPP/VisualCpp2005-SP1b/vcredist_x86.exe
 ```
 
 8.0.50727.42 (MSI 8.0.50727.42) RTM
