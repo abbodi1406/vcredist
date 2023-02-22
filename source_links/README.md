@@ -5,6 +5,13 @@
 <details><summary>2022</summary>
 
 
+14.36.32323.0
+```
+https://download.visualstudio.microsoft.com/download/pr/6b9f2df7-b34b-413a-a832-b2fe819b2be6/8E73EAADD56ABEC0D4BBFD694470F75BBF3221DE02EA5B8C09EB0D3CCADAE1BC/VC_redist.x64.exe
+https://download.visualstudio.microsoft.com/download/pr/4ab22709-f4f0-4b50-96ec-1164bfe1aa3e/98F01C0655933FE1A409775C1778CB71C120FA3529C5D091C7F6F7788E6B5049/VC_redist.x86.exe
+https://download.visualstudio.microsoft.com/download/pr/6b9f2df7-b34b-413a-a832-b2fe819b2be6/4E0511FDFABB217A34C7352EAF85C31FC8ED9D0A3975293B3FB0ABC379A8788F/VC_redist.arm64.exe
+```
+
 14.34.31938.0
 ```
 https://download.visualstudio.microsoft.com/download/pr/8b92f460-7e03-4c75-a139-e264a770758d/26C2C72FBA6438F5E29AF8EBC4826A1E424581B3C446F8C735361F1DB7BEFF72/VC_redist.x64.exe
