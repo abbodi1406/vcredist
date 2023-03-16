@@ -43,6 +43,10 @@ this repack will install KB3118401 if UCRT is not available.
 
 - VC++ 2022 runtimes are binary compatible with VC++ 2015-2017-2019 and cover all VS 2015-2017-2019-2022 programs.
 
+## Windows Vista Notice:
+
+* VC++ 2022 version 14.32.31332.0 = [VisualCppRedist_AIO v0.61.0](https://github.com/abbodi1406/vcredist/releases/tag/v0.61.0) is the last version compatible with Windows Vista
+
 ## Windows XP Notice:
 
 * VC++ 2019 version 14.28.29213.0 = [VisualCppRedist_AIO v0.35.0](https://github.com/abbodi1406/vcredist/releases/tag/v0.35.0) is the last version compatible with Windows XP
@@ -89,20 +93,22 @@ Quiet mode. *Only* 2022 package is installed.
 Quiet mode. *Only* VSTOR 2010 package is installed.  
 /aiE  
 Quiet mode. *Only* Extra VB/C package is installed.  
+/aiB  
+Quiet mode. *Only* Extra VB package is installed.  
+/aiC  
+Quiet mode. *Only* Extra VC package is installed.  
 /aiV  
 Quiet mode. *Only* VC++ packages are installed.  
 /aiM  
 Manual Install mode, shows installation script with prompt.  
 /aiU  
-Manual Uninstall mode, remove all detected runtimes.  
+Manual Uninstall mode, shows uninstallation script with prompt.  
 /aiR  
 Auto Uninstall mode, remove all detected runtimes.  
 /aiD  
 Debug mode, create VCpp_debug.log without installing/uninstalling any package.  
 /aiP  
 Manual Hide or Show Runtimes entries in Add/Remove Programs panel.  
-/aiH  
-Auto Hide Runtimes entries in Add/Remove Programs panel.  
 /ai1  
 Update mode. Only already installed packages are updated.  
 /gm2  

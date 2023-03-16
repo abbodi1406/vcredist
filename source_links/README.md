@@ -54,7 +54,7 @@ https://download.visualstudio.microsoft.com/download/pr/a16e1596-7fef-4570-8d63-
 https://download.visualstudio.microsoft.com/download/pr/90b6da66-cd08-444a-af98-b4f3f846526b/6547789411F466FA1EB030BAE3170AFA046EC9CD8E6E6A387D33E9CBB82FEC18/VC_redist.arm64.exe
 ```
 
-14.32.31332.0
+14.32.31332.0 - **last version compatible with Windows Vista**
 ```
 https://download.visualstudio.microsoft.com/download/pr/ed95ef9e-da02-4735-9064-bd1f7f69b6ed/CE6593A1520591E7DEA2B93FD03116E3FC3B3821A0525322B0A430FAA6B3C0B4/VC_redist.x64.exe
 https://download.visualstudio.microsoft.com/download/pr/ed95ef9e-da02-4735-9064-bd1f7f69b6ed/CF92A10C62FFAB83B4A2168F5F9A05E5588023890B5C0CC7BA89ED71DA527B0F/VC_redist.x86.exe
