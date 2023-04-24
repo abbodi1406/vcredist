@@ -152,5 +152,13 @@ if other switches are specified together, only the latest will have an effect. E
 
 ## Download
 
-[Download link and info](https://tiny.cc/vcredist)
+- Latest release zip file:  
+https://kutt.it/vcppredist  
+https://rebrand.ly/vcredist
+- Latest release exe file:  
+https://kutt.it/vcpp  
+https://rebrand.ly/vcpp
+- All releases:  
+https://github.com/abbodi1406/vcredist/releases  
+https://tiny.cc/vcredist
 
