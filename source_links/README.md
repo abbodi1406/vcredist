@@ -5,6 +5,13 @@
 <details><summary>2022</summary>
 
 
+14.38.32919.0
+```
+https://download.visualstudio.microsoft.com/download/pr/02a6d5c5-3e10-47de-8025-d97a1321d3e3/5F60592799FAE0C82578112D4B621438FFC976AB39D848D8F7623F5705A83E27/VC_redist.x64.exe
+https://download.visualstudio.microsoft.com/download/pr/02a6d5c5-3e10-47de-8025-d97a1321d3e3/AD573D3198853FC71137A88E51ABDE844B84F29B0CE6DD91BBEC661BC0143B36/VC_redist.x86.exe
+https://download.visualstudio.microsoft.com/download/pr/9a901627-1c45-449c-8f19-98495982f202/395B4C8857D6AA47EED647B1361CC75751A92581060D1A1133CD4642269315B5/VC_redist.arm64.exe
+```
+
 14.36.32532.0
 ```
 https://download.visualstudio.microsoft.com/download/pr/eaab1f82-787d-4fd7-8c73-f782341a0c63/917C37D816488545B70AFFD77D6E486E4DD27E2ECE63F6BBAAF486B178B2B888/VC_redist.x64.exe
@@ -899,6 +906,8 @@ https://rserverdistribution.azureedge.net/production/redist/VCRT/12.0.30501.0/DL
 
 12.0.21005.1
 ```
+https://cuckoo.sh/vmcloak/vcredist_2013_x64.exe
+https://cuckoo.sh/vmcloak/vcredist_2013_x86.exe
 http://download.microsoft.com/download/A/8/D/A8DC10BB-5299-4057-8FD8-1896B7F5A60B/drop/enu_VS/VCRedistD12x64/vcredist_x64.exe
 http://download.microsoft.com/download/A/8/D/A8DC10BB-5299-4057-8FD8-1896B7F5A60B/drop/enu_VS/VCRedistD12x86/vcredist_x86.exe
 http://download.microsoft.com/download/0/2/F/02F628CC-6818-462A-B6F4-F78E0E41F7FA/Drop/enu_VS/VCRedistD12x64/vcredist_x64.exe
@@ -973,6 +982,26 @@ http://download.microsoft.com/download/E/E/0/EE05C9EF-A661-4D9E-BCE2-6961ECDF087
 ```
 https://support.microsoft.com/en-us/help/2890375
 https://support.microsoft.com/en-us/help/2889080
+```
+
+10.0.40219.447 SP1
+```
+https://support.microsoft.com/en-us/help/2821701
+```
+
+10.0.40219.436 SP1
+```
+https://support.microsoft.com/en-us/help/2689322
+```
+
+10.0.40219.434 SP1
+```
+https://support.microsoft.com/en-us/help/2723430
+```
+
+10.0.40219.414 SP1
+```
+https://support.microsoft.com/en-us/help/2608539
 ```
 
 10.0.40219.325 SP1
@@ -1063,10 +1092,10 @@ http://web.archive.org/web/20190228220826/https://download.microsoft.com/downloa
 
 9.0.30411.0 RTM
 ```
-https://www.microsoft.com/en-us/download/details.aspx?id=16771
-https://www.microsoft.com/en-us/download/details.aspx?id=10015
-http://download.microsoft.com/download/1/9/0/190da410-d595-4342-ba2f-2422e78bc84d/vcredist_x64.exe
-http://download.microsoft.com/download/d/1/0/d10d210e-e0ad-4010-b547-bc5e395ef691/vcredist_x86.exe
+http://web.archive.org/web/20190419092620/http://www.microsoft.com/en-us/download/details.aspx?id=16771
+http://web.archive.org/web/20170311053706/http://www.microsoft.com/en-us/download/details.aspx?id=10015
+http://web.archive.org/web/20200803205341/http://download.microsoft.com/download/1/9/0/190da410-d595-4342-ba2f-2422e78bc84d/vcredist_x64.exe
+http://web.archive.org/web/20141116100952/http://download.microsoft.com/download/d/1/0/d10d210e-e0ad-4010-b547-bc5e395ef691/vcredist_x86.exe
 ```
 
 9.0.21022.218 RTM
@@ -1078,10 +1107,10 @@ http://download.microsoft.com/download/A/5/3/A53B40CA-F75C-4678-852A-3C15EA82F18
 
 9.0.21022.8 RTM
 ```
-https://www.microsoft.com/en-us/download/details.aspx?id=15336
-https://www.microsoft.com/en-us/download/details.aspx?id=29
-http://download.microsoft.com/download/d/2/4/d242c3fb-da5a-4542-ad66-f9661d0a8d19/vcredist_x64.exe
-http://download.microsoft.com/download/1/1/1/1116b75a-9ec3-481a-a3c8-1777b5381140/vcredist_x86.exe
+http://web.archive.org/web/20170301005607/http://www.microsoft.com/en-us/download/details.aspx?id=15336
+http://web.archive.org/web/20170201104610/http://www.microsoft.com/en-us/download/details.aspx?id=29
+http://web.archive.org/web/20170302190538/http://download.microsoft.com/download/d/2/4/d242c3fb-da5a-4542-ad66-f9661d0a8d19/vcredist_x64.exe
+http://web.archive.org/web/20170101214751/http://download.microsoft.com/download/1/1/1/1116b75a-9ec3-481a-a3c8-1777b5381140/vcredist_x86.exe
 ```
 </details>
 
@@ -1130,8 +1159,8 @@ https://msassist.com/files/VisualCPP/VisualCpp2005-SP1b/vcredist_x86.exe
 ```
 http://web.archive.org/web/20121213184646/https://www.microsoft.com/en-us/download/details.aspx?id=21254
 http://web.archive.org/web/20121231110729/https://www.microsoft.com/en-us/download/details.aspx?id=3387
-http://web.archive.org/web/20121213184646/http://download.microsoft.com/download/9/1/4/914851c6-9141-443b-bdb4-8bad3a57bea9/vcredist_x64.exe
-http://web.archive.org/web/20121231110729/http://download.microsoft.com/download/d/3/4/d342efa6-3266-4157-a2ec-5174867be706/vcredist_x86.exe
+http://web.archive.org/web/20120709125308/http://download.microsoft.com/download/9/1/4/914851c6-9141-443b-bdb4-8bad3a57bea9/vcredist_x64.exe
+http://web.archive.org/web/20130729085626/http://download.microsoft.com/download/d/3/4/d342efa6-3266-4157-a2ec-5174867be706/vcredist_x86.exe
 ```
 </details>
 
