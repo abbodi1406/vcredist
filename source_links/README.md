@@ -1283,9 +1283,18 @@ ______________________________
 <details><summary>VSTOR 2010</summary>
 
 
+10.0.60910.0 (MSI 10.0.60915)
+```
+http://download.windowsupdate.com/d/msdownload/update/software/secu/2023/08/vstor_redist_e7a2976ca89418fd18158d4799cdf9493deedc2c.exe
+https://aka.ms/VSTORuntimeDownload
+https://www.microsoft.com/en-us/download/details.aspx?id=105522
+https://download.microsoft.com/download/8/6/4/8641e164-7796-4b34-81c7-30d24a5bd533/vstor_redist.exe
+LangPacks
+https://www.microsoft.com/en-us/download/details.aspx?id=105523
+```
+
 10.0.60828.0 (MSI 10.0.60833)
 ```
-https://aka.ms/VSTORuntimeDownload
 https://www.microsoft.com/en-us/download/details.aspx?id=56961
 http://download.microsoft.com/download/C/A/8/CA86DFA0-81F3-4568-875A-7E7A598D4C1C/vstor_redist.exe
 LangPacks
