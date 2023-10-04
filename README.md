@@ -27,7 +27,7 @@
 2022: Latest
 
 - Visual Studio 2010 Tools for Office Runtime (x86/x64)  
-10.0.60833.0
+10.0.60915.0
 
 - Legacy Runtimes (x86)  
 Visual C++ 2002: 7.0.9975.0  
