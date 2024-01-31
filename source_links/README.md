@@ -5,6 +5,13 @@
 <details><summary>2022</summary>
 
 
+14.38.33135.0
+```
+https://download.visualstudio.microsoft.com/download/pr/34922e31-a9d4-49cf-a245-9211b353c894/1AD7988C17663CC742B01BEF1A6DF2ED1741173009579AD50A94434E54F56073/VC_redist.x64.exe
+https://download.visualstudio.microsoft.com/download/pr/71c6392f-8df5-4b61-8d50-dba6a525fb9d/510FC8C2112E2BC544FB29A72191EABCC68D3A5A7468D35D7694493BC8593A79/VC_redist.x86.exe
+https://download.visualstudio.microsoft.com/download/pr/71c6392f-8df5-4b61-8d50-dba6a525fb9d/9378E04AE461E29CE5E46787D20F81700C80AD305B9417710D147C1D7FF0C970/VC_redist.arm64.exe
+```
+
 14.38.33130.0
 ```
 https://download.visualstudio.microsoft.com/download/pr/f04bd1f4-d474-4dc1-bb63-5c059bb86c55/4DFE83C91124CD542F4222FE2C396CABEAC617BB6F59BDCBDF89FD6F0DF0A32F/VC_redist.x64.exe
@@ -1304,10 +1311,17 @@ ______________________________
 <details><summary>VSTOR 2010</summary>
 
 
+10.0.60912.0 (MSI 10.0.60917)
+```
+https://www.microsoft.com/en-us/download/details.aspx?id=105671
+https://download.microsoft.com/download/c/0/e/c0e39fdf-68c9-4332-b745-5268ed69cb54/vstor_redist.exe
+LangPacks
+https://www.microsoft.com/en-us/download/details.aspx?id=105672
+```
+
 10.0.60910.0 (MSI 10.0.60915)
 ```
 http://download.windowsupdate.com/d/msdownload/update/software/secu/2023/08/vstor_redist_e7a2976ca89418fd18158d4799cdf9493deedc2c.exe
-https://aka.ms/VSTORuntimeDownload
 https://www.microsoft.com/en-us/download/details.aspx?id=105522
 https://download.microsoft.com/download/8/6/4/8641e164-7796-4b34-81c7-30d24a5bd533/vstor_redist.exe
 LangPacks

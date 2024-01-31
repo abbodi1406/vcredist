@@ -12,7 +12,8 @@
 
 - The uninstallation option/script will remove any detected VC++ runtimes (except UCRT).
 
-- Windows XP support is partial, the pack will install and detect the latest runtimes versions, but it will not check and remove non-compliant versions.
+- Custom AIO v35 packs for Windows XP XP SP3 / NT 5.2 support all the features and switches of recent AIO pack.  
+old general AIO v35 pack itself has partial support.
 
 - You can extract the installer file with 7-zip or WinRar to a short path, and run Installer.cmd as administrator
 
@@ -27,7 +28,7 @@
 2022: Latest
 
 - Visual Studio 2010 Tools for Office Runtime (x86/x64)  
-10.0.60915.0
+10.0.60917.0
 
 - Legacy Runtimes (x86)  
 Visual C++ 2002: 7.0.9975.0  
@@ -154,10 +155,10 @@ if other switches are specified together, only the latest will have an effect. E
 
 - Latest release zip file:  
 https://kutt.it/vcppredist  
-https://rebrand.ly/vcredist
+https://rebrand.ly/vcredist - no longer updated
 - Latest release exe file:  
 https://kutt.it/vcpp  
-https://rebrand.ly/vcpp
+https://rebrand.ly/vcpp - no longer updated
 - All releases:  
 https://github.com/abbodi1406/vcredist/releases  
 https://tiny.cc/vcredist
