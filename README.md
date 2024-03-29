@@ -69,56 +69,80 @@ original installation script
 
 ```
 Usage:  
-VisualCppRedist_AIO_x86_x64.exe [switches]  
+VisualCppRedist_AIO_x86_x64.exe [switches]
+
 All switches are optional, case-sensitive.
 
 /y  
-Passive mode, shows progress. *All* Runtime packages are installed.  
+Passive mode, shows progress. *All* Runtime packages are installed.
+
 /ai  
-Quiet mode, no output shown. *All* Runtime packages are installed.  
+Quiet mode, no output shown. *All* Runtime packages are installed.
+
 /aiA  
-Quiet mode. *All* Runtime packages are installed, and hide ARP entries.  
+Quiet mode. *All* Runtime packages are installed, and hide ARP entries.
+
 /ai5  
-Quiet mode. *Only* 2005 package is installed.  
+Quiet mode. *Only* 2005 package is installed.
+
 /ai8  
-Quiet mode. *Only* 2008 package is installed.  
+Quiet mode. *Only* 2008 package is installed.
+
 /aiX  
-Quiet mode. *Only* 2010 package is installed.  
+Quiet mode. *Only* 2010 package is installed.
+
 /ai2  
-Quiet mode. *Only* 2012 package is installed.  
+Quiet mode. *Only* 2012 package is installed.
+
 /ai3  
-Quiet mode. *Only* 2013 package is installed.  
+Quiet mode. *Only* 2013 package is installed.
+
 /ai9  
-Quiet mode. *Only* 2022 package is installed.  
+Quiet mode. *Only* 2022 package is installed.
+
 /aiT  
-Quiet mode. *Only* VSTOR 2010 package is installed.  
+Quiet mode. *Only* VSTOR 2010 package is installed.
+
 /aiE  
-Quiet mode. *Only* Extra VB/C package is installed.  
+Quiet mode. *Only* Extra VB/C package is installed. 
+ 
 /aiB  
-Quiet mode. *Only* Extra VB package is installed.  
+Quiet mode. *Only* Extra VB package is installed.
+
 /aiC  
-Quiet mode. *Only* Extra VC package is installed.  
+Quiet mode. *Only* Extra VC package is installed.
+
 /aiV  
-Quiet mode. *Only* VC++ packages are installed.  
+Quiet mode. *Only* VC++ packages are installed.
+
 /aiM  
-Manual Install mode, shows installation script with prompt.  
+Manual Install mode, shows installation script with prompt.
+
 /aiU  
-Manual Uninstall mode, shows uninstallation script with prompt.  
+Manual Uninstall mode, shows uninstallation script with prompt.
+
 /aiR  
-Auto Uninstall mode, remove all detected runtimes.  
+Auto Uninstall mode, remove all detected runtimes.
+
 /aiD  
-Debug mode, create VCpp_debug.log without installing/uninstalling any package.  
+Debug mode, create VCpp_debug.log without installing/uninstalling any package.
+
 /aiP  
-Manual Hide or Show Runtimes entries in Add/Remove Programs panel.  
+Manual Hide or Show Runtimes entries in Add/Remove Programs panel.
+
 /ai1  
-Update mode. Only already installed packages are updated.  
+Update mode. Only already installed packages are updated.
+
 /gm2  
-Optional switch to disable extraction dialog for all other switches  
+Optional switch to disable extraction dialog for all other switches.
+
 /sfxlang:  
-Set the program display language, if possible. Example: /sfxlang:1031  
+Set the program display language, if possible. Example: /sfxlang:1031
+
 /h | /?  
 Display this help.
-
+```
+```
 Examples:
 
 Automatically install all packages and display progress:  
