@@ -146,7 +146,8 @@ VisualCppRedist_AIO_x86_x64.exe /aiA /gm2
 if other switches are specified together, only the latest will have an effect. Example, this will only install Extra VB/C package:  
 `/ai5 /ai8 /aiT /aiE`
 
-- to install separate packages together, combine their latest switch character after **/ai** Example: **/ai58X239E**
+- to install separate packages together, combine their latest switch character after **/ai** , Example:  
+`/ai58X239E`
 
 - **/sfxlang** must be the first switch to have effect. Example:  
 `/sfxlang:1031 /aiV`
@@ -154,12 +155,9 @@ if other switches are specified together, only the latest will have an effect. E
 ## Download
 
 - Latest release zip file:  
-https://kutt.it/vcppredist  
-https://rebrand.ly/vcredist - no longer updated
+https://kutt.it/vcppredist
 - Latest release exe file:  
-https://kutt.it/vcpp  
-https://rebrand.ly/vcpp - no longer updated
+https://kutt.it/vcpp
 - All releases:  
 https://github.com/abbodi1406/vcredist/releases  
 https://tiny.cc/vcredist
-
