@@ -167,7 +167,7 @@ VisualCppRedist_AIO_x86_x64.exe /aiA /gm2
 - **/y** gives the same default behavior, but without the beginning prompt and the finish message  
 
 - only **/sfxlang** and **/gm2** can be specified with other switches  
-if other switches are specified together, only the latest will have an effect. Example, this will only install Extra VB/C package:  
+if other switches are specified together, only the last one will have an effect. Example, this will only install Extra VB/C package:  
 `/ai5 /ai8 /aiT /aiE`
 
 - to install separate packages together, combine their latest switch character after **/ai** , Example:  
