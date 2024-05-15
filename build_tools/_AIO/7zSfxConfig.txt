@@ -1,0 +1,375 @@
+﻿;!@Install@!UTF-8!
+;Default, Full
+RunProgram="hidcon:Installer.cmd /auto"
+
+;[/ai]  Quiet, Full
+AutoInstall="hidcon:Installer.cmd /quiet"
+
+;[/aiA] Quiet, Full, Hide ARP
+AutoInstallA="hidcon:Installer.cmd /quiet"
+AutoInstallA="hidcon:ARP.cmd /auto"
+
+;[/aiV] VC++ ONLY (exclude VSTOR and VB)
+AutoInstallV="hidcon:Installer.cmd /vcpp"
+
+;[/aiD] Debug Log only
+AutoInstallD="hidcon:Installer.cmd /debug"
+
+;[/aiM] Manual w/ prompt
+AutoInstallM="Installer.cmd"
+
+;[/aiP] Hide/Show ARP
+AutoInstallP="ARP.cmd"
+
+;[/aiU] Remove, Prompt
+AutoInstallU="Uninstaller.cmd"
+
+;[/aiR] Remove, Auto
+AutoInstallR="hidcon:Uninstaller.cmd /auto"
+
+;[/ai1] Update ONLY
+AutoInstall1="hidcon:Installer.cmd /update"
+
+;[/ai5] 2005 ONLY
+AutoInstall5="x64:2005\\x64\\vcredist.msi /qn /norestart"
+AutoInstall5="2005\\x86\\vcredist.msi /qn /norestart"
+
+;[/ai8] 2008 ONLY
+AutoInstall8="x64:2008\\x64\\vc_red.msi /qn /norestart"
+AutoInstall8="2008\\x86\\vc_red.msi /qn /norestart"
+
+;[/aiX] 2010 ONLY
+AutoInstallX="x64:2010\\x64\\vc_red.msi /qn /norestart"
+AutoInstallX="2010\\x86\\vc_red.msi /qn /norestart"
+
+;[/ai2] 2012 ONLY
+AutoInstall2="x64:2012\\x64\\vc_runtimeMinimum_x64.msi /qn /norestart"
+AutoInstall2="x64:2012\\x64\\vc_runtimeAdditional_x64.msi /qn /norestart"
+AutoInstall2="2012\\x86\\vc_runtimeMinimum_x86.msi /qn /norestart"
+AutoInstall2="2012\\x86\\vc_runtimeAdditional_x86.msi /qn /norestart"
+
+;[/ai3] 2013 ONLY
+AutoInstall3="x64:2013\\x64\\vc_runtimeMinimum_x64.msi /qn /norestart"
+AutoInstall3="x64:2013\\x64\\vc_runtimeAdditional_x64.msi /qn /norestart"
+AutoInstall3="2013\\x86\\vc_runtimeMinimum_x86.msi /qn /norestart"
+AutoInstall3="2013\\x86\\vc_runtimeAdditional_x86.msi /qn /norestart"
+
+;[/ai9] 2022 ONLY
+AutoInstall9="x64:2022\\x64\\vc_runtimeMinimum_x64.msi /qn /norestart"
+AutoInstall9="x64:2022\\x64\\vc_runtimeAdditional_x64.msi /qn /norestart"
+AutoInstall9="2022\\x86\\vc_runtimeMinimum_x86.msi /qn /norestart"
+AutoInstall9="2022\\x86\\vc_runtimeAdditional_x86.msi /qn /norestart"
+AutoInstall9="hidcon:Installer.cmd /uc14"
+
+;[/aiT] VSTOR ONLY
+AutoInstallT="x64:VSTOR\\vstor40_x64.msi /qn /norestart"
+AutoInstallT="x86:VSTOR\\vstor40_x86.msi /qn /norestart"
+
+;[/aiE] EXTRA VB/C ONLY
+AutoInstallE="MsiExec.exe /X{C5E3A69D-D392-45A6-A8FB-00B01E2B010D} /quiet /norestart"
+AutoInstallE="MsiExec.exe /X{C5E3A69D-D393-45A6-A8FB-00B01E2B010D} /quiet /norestart"
+AutoInstallE="vbc\\vbcrun.msi /qn /norestart"
+
+;[/aiB] EXTRA VB ONLY
+AutoInstallB="MsiExec.exe /X{C5E3A69D-D391-45A6-A8FB-00B01E2B010D} /quiet /norestart"
+AutoInstallB="vbc\\vbrun.msi /qn /norestart"
+
+;[/aiC] EXTRA VC ONLY
+AutoInstallC="MsiExec.exe /X{C5E3A69D-D391-45A6-A8FB-00B01E2B010D} /quiet /norestart"
+AutoInstallC="vbc\\vcrun.msi /qn /norestart"
+
+;Setup dialogs
+BeginPrompt="{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Tahoma;}}
+\viewkind4\uc1\pard\sl240\slmult1\f0\fs30\lang9 %product% Setup\par}"
+
+CancelPrompt="Are you sure you want to cancel?"
+
+ExtractTitle="Extracting files"
+ExtractDialogText="{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Tahoma;}}
+\viewkind4\uc1\pard\sl240\slmult1\f0\fs18\lang9 Preparing:\par}"
+
+FinishMessage="{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Tahoma;}}
+\viewkind4\uc1\pard\sl240\slmult1\f0\fs30\lang9 Installation Is Complete\par\fs16\par\par\par
+%product% has been installed.\par}"
+
+GUIMode="0"
+GUIFlags="2+4+8+16+32+256+2048+4096"
+
+HelpText="{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Tahoma;}}
+\viewkind4\uc1\pard\sl240\slmult1\f0\fs18\lang9 Usage:\tab\tab %%M [switches]\par
+\tab\tab All switches are optional, *case-sensitive*.\par\par
+/y - Passive mode, shows progress. *All* Runtime packages are installed.\par
+/ai - Quiet mode, no output shown. *All* Runtime packages are installed.\par
+/aiA - Quiet mode. *All* Runtime packages are installed, and hide ARP entries.\par
+/ai5 - Quiet mode. *Only* 2005 package is installed.\par
+/ai8 - Quiet mode. *Only* 2008 package is installed.\par
+/aiX - Quiet mode. *Only* 2010 package is installed.\par
+/ai2 - Quiet mode. *Only* 2012 package is installed.\par
+/ai3 - Quiet mode. *Only* 2013 package is installed.\par
+/ai9 - Quiet mode. *Only* 2022 package is installed.\par
+/aiT - Quiet mode. *Only* VSTOR 2010 package is installed.\par
+/aiE - Quiet mode. *Only* Extra VB/C package is installed.\par
+/aiB - Quiet mode. *Only* Extra VB package is installed.\par
+/aiC - Quiet mode. *Only* Extra VC package is installed.\par
+/aiV - Quiet mode. *Only* VC++ packages are installed.\par
+/aiM - Manual Install mode, shows installation script with prompt.\par
+/aiU - Manual Uninstall mode, shows uninstallation script with prompt.\par
+/aiR - Auto Uninstall mode, remove all detected runtimes.\par
+/aiD - Debug mode, create VCpp_debug.log without install/uninstall any package.\par
+/aiP - Manual Hide or Show Runtimes entries in Add/Remove Programs panel.\par
+/ai1 - Update mode. Only already installed packages are updated.\par
+/gm2 - Optional switch to disable extraction dialog for all other switches\par
+\par
+Examples:\par
+Automatically install all packages and display progress:\par
+%%M /y\par
+Silently install all packages and display no progress:\par
+%%M /ai /gm2\par
+Silently install 2022 package:\par
+%%M /ai9\par
+Silently install 2010/2012/2013/2022 packages:\par
+%%M /aiX239\par
+Silently install VSTOR and Extra VB/C packages:\par
+%%M /aiTE\par
+Silently install all packages and hide ARP entries:\par
+%%M /aiA /gm2\par
+\par
+(c) Microsoft Corporation. All Rights Reserved.\par}"
+
+SetEnvironment="product=Visual C++ Redistributable"
+
+Title="Microsoft %product% Setup"
+;!@InstallEnd@!
+
+;!@Install@!UTF-8:Language:1025!
+CancelPrompt="هل تريد بالتأكيد الإلغاء؟"
+ExtractTitle="يتم الآن استخراج الملفات"
+ExtractDialogText="{\rtf1\fbidis\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset178 Tahoma;}{\f1\fnil\fcharset0 Tahoma;}}
+\viewkind4\uc1\pard\ltrpar\sl240\slmult1\f0\rtlch\fs18\lang1025 يتم الآن التحضير\f1\ltrch\lang1033 :\lang9\par}"
+FinishMessage="{\rtf1\fbidis\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset178 Tahoma;}{\f1\fnil\fcharset0 Tahoma;}}
+\viewkind4\uc1\pard\ltrpar\sl240\slmult1\f0\rtlch\fs30\lang1025 اكتمل التثبيت\par\fs16\par\par\par
+تم تثبيت\f1\ltrch\lang1033  %product%\lang9\par}"
+;!@InstallEnd@:Language:1025!
+
+;!@Install@!UTF-8:Language:1028!
+CancelPrompt="您確定要取消嗎?"
+ExtractTitle="正在解壓縮檔案"
+ExtractDialogText="{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\froman\fprq2\fcharset136 PMingLiU;}}
+\viewkind4\uc1\pard\sl240\slmult1\f0\fs18\lang1028 正在準備:\par}"
+FinishMessage="{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\froman\fprq2\fcharset136 PMingLiU;}{\f1\fnil\fcharset0 Tahoma;}}
+\viewkind4\uc1\pard\sl240\slmult1\f0\fs30\lang1028 安裝完成\par\fs16\par\par\par
+\f1 %product%\f0  安裝完成。\par}"
+;!@InstallEnd@:Language:1028!
+
+;!@Install@!UTF-8:Language:1029!
+CancelPrompt="Opravdu chcete akci zrušit?"
+ExtractTitle="Extrahování souborů"
+ExtractDialogText="{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Tahoma;}{\f1\fnil\fcharset238 Tahoma;}}
+\viewkind4\uc1\pard\sl240\slmult1\f0\fs18\lang9 P\f1 ř\f0 íprava:\par}"
+FinishMessage="{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Tahoma;}{\f1\fnil\fcharset238 Tahoma;}}
+\viewkind4\uc1\pard\sl240\slmult1\f0\fs30\lang9 Instalace byla dokon\f1 č\f0 ena\par\fs16\par\par\par
+Produkt %product% byl nainstalován.\par}"
+;!@InstallEnd@:Language:1029!
+
+;!@Install@!UTF-8:Language:1030!
+CancelPrompt="Er du sikker på, at du vil annullere?"
+ExtractTitle="Udpakker filer"
+ExtractDialogText="{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Tahoma;}}
+\viewkind4\uc1\pard\sl240\slmult1\f0\fs18\lang9 Forbereder:\par}"
+FinishMessage="{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Tahoma;}}
+\viewkind4\uc1\pard\sl240\slmult1\f0\fs30\lang9 Installationen er fuldført\par\fs16\par\par\par
+%product% er installeret.\par}"
+;!@InstallEnd@:Language:1030!
+
+;!@Install@!UTF-8:Language:1031!
+CancelPrompt="Möchten Sie den Vorgang wirklich abbrechen?"
+ExtractTitle="Dateien werden extrahiert..."
+ExtractDialogText="{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Tahoma;}}
+\viewkind4\uc1\pard\sl240\slmult1\f0\fs18\lang9 Vorgang wird vorbereitet:\par}"
+FinishMessage="{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Tahoma;}}
+\viewkind4\uc1\pard\sl240\slmult1\f0\fs30\lang9 Die Installation ist abgeschlossen.\par\fs16\par\par\par
+%product% wurde installiert.\par}"
+;!@InstallEnd@:Language:1031!
+
+;!@Install@!UTF-8:Language:1032!
+CancelPrompt="Είστε βέβαιοι ότι θέλετε να ακυρώσετε;"
+ExtractTitle="Εξαγωγή αρχείων"
+ExtractDialogText="{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset161 Tahoma;}}
+\viewkind4\uc1\pard\sl240\slmult1\f0\fs18\lang1032 Προετοιμασία:\par}"
+FinishMessage="{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset161 Tahoma;}}
+\viewkind4\uc1\pard\sl240\slmult1\f0\fs30\lang1032 Η εγκατάσταση ολοκληρώθηκε\par\fs16\par\par\par
+Η εγκατάσταση του %product% ολοκληρώθηκε.\par}"
+;!@InstallEnd@:Language:1032!
+
+;!@Install@!UTF-8:Language:1033!
+;!@InstallEnd@:Language:1033!
+
+;!@Install@!UTF-8:Language:1035!
+CancelPrompt="Haluatko varmasti peruuttaa?"
+ExtractTitle="Puretaan tiedostoja"
+ExtractDialogText="{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Tahoma;}}
+\viewkind4\uc1\pard\sl240\slmult1\f0\fs18\lang9 Valmistellaan:\par}"
+FinishMessage="{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Tahoma;}}
+\viewkind4\uc1\pard\sl240\slmult1\f0\fs30\lang9 Asennus on valmis\par\fs16\par\par\par
+%product% on asennettu.\par}"
+;!@InstallEnd@:Language:1035!
+
+;!@Install@!UTF-8:Language:1036!
+CancelPrompt="Voulez-vous vraiment annuler ?"
+ExtractTitle="Extraction des fichiers"
+ExtractDialogText="{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Tahoma;}}
+\viewkind4\uc1\pard\sl240\slmult1\f0\fs18\lang9 En cours de préparation :\par}"
+FinishMessage="{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Tahoma;}}
+\viewkind4\uc1\pard\sl240\slmult1\f0\fs30\lang9 Installation terminée\par\fs16\par\par\par
+%product% a été installé.\par}"
+;!@InstallEnd@:Language:1036!
+
+;!@Install@!UTF-8:Language:1037!
+CancelPrompt="האם אתה בטוח שברצונך לבטל?"
+ExtractTitle="מחלץ קבצים"
+ExtractDialogText="{\rtf1\fbidis\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset177 Tahoma;}{\f1\fnil\fcharset0 Tahoma;}}
+\viewkind4\uc1\pard\ltrpar\sl240\slmult1\f0\rtlch\fs18\lang1037 מתכונן\f1\ltrch\lang1033 :\lang9\par}"
+FinishMessage="{\rtf1\fbidis\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset177 Tahoma;}{\f1\fnil\fcharset0 Tahoma;}}
+\viewkind4\uc1\pard\ltrpar\sl240\slmult1\f0\rtlch\fs30\lang1037 ההתקנה הושלמה\par\fs16\par\par\par
+\f1\ltrch\lang1033 %product% \f0\rtlch\lang1037 הותקן\f1\ltrch\lang1033 .\f0\rtlch\lang1037\par}"
+;!@InstallEnd@:Language:1037!
+
+;!@Install@!UTF-8:Language:1038!
+CancelPrompt="Biztosan megszakítja a műveletet?"
+ExtractTitle="Fájlok kibontása"
+ExtractDialogText="{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Tahoma;}{\f1\fnil\fcharset238 Tahoma;}}
+\viewkind4\uc1\pard\sl240\slmult1\f0\fs18\lang9 El\f1 ők\f0 észítés:\par}"
+FinishMessage="{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Tahoma;}{\f1\fnil\fcharset238 Tahoma;}}
+\viewkind4\uc1\pard\sl240\slmult1\f0\fs30\lang9 A telepítés befejez\f1 őd\f0 ött.\par\fs16\par\par\par
+A %product% telepítése megtörtént.\par}"
+;!@InstallEnd@:Language:1038!
+
+;!@Install@!UTF-8:Language:1040!
+CancelPrompt="Annullare?"
+ExtractTitle="Estrazione file"
+ExtractDialogText="{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Tahoma;}}
+\viewkind4\uc1\pard\sl240\slmult1\f0\fs18\lang9 Preparazione:\par}"
+FinishMessage="{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Tahoma;}}
+\viewkind4\uc1\pard\sl240\slmult1\f0\fs30\lang9 Installazione completata\par\fs16\par\par\par
+Installazione di %product% completata.\par}"
+;!@InstallEnd@:Language:1040!
+
+;!@Install@!UTF-8:Language:1041!
+CancelPrompt="本当にキャンセルしてもよろしいですか?"
+ExtractTitle="ファイルを抽出しています"
+ExtractDialogText="{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fswiss\fprq2\fcharset128 MS PGothic;}}
+\viewkind4\uc1\pard\sl240\slmult1\f0\fs18\lang1041 準備中:\par}"
+FinishMessage="{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fswiss\fprq2\fcharset128 MS PGothic;}{\f1\fnil\fcharset0 Tahoma;}}
+\viewkind4\uc1\pard\sl240\slmult1\f0\fs30\lang1041 インストールが完了しました\par\fs16\par\par\par
+\f1 %product%\f0  がインストールされました。\par}"
+;!@InstallEnd@:Language:1041!
+
+;!@Install@!UTF-8:Language:1042!
+CancelPrompt="취소하시겠습니까?"
+ExtractTitle="파일 압축을 푸는 중"
+ExtractDialogText="{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fswiss\fprq2\fcharset129 Gulim;}}
+\viewkind4\uc1\pard\sl240\slmult1\f0\fs18\lang1042 준비 중:\par}"
+FinishMessage="{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fswiss\fprq2\fcharset129 Gulim;}{\f1\fnil\fcharset0 Tahoma;}}
+\viewkind4\uc1\pard\sl240\slmult1\f0\fs30\lang1042 설치 완료\par\fs16\par\par\par
+\f1 %product%\f0  이(가) 설치되었습니다.\par}"
+;!@InstallEnd@:Language:1042!
+
+;!@Install@!UTF-8:Language:1043!
+CancelPrompt="Weet u zeker dat u wilt annuleren?"
+ExtractTitle="Bestanden uitpakken"
+ExtractDialogText="{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Tahoma;}}
+\viewkind4\uc1\pard\sl240\slmult1\f0\fs18\lang9 Voorbereiden:\par}"
+FinishMessage="{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Tahoma;}}
+\viewkind4\uc1\pard\sl240\slmult1\f0\fs30\lang9 Installatie voltooid\par\fs16\par\par\par
+%product% is geïnstalleerd.\par}"
+;!@InstallEnd@:Language:1043!
+
+;!@Install@!UTF-8:Language:1044!
+CancelPrompt="Er du sikker på at du vil avbryte?"
+ExtractTitle="Pakke ut filer"
+ExtractDialogText="{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Tahoma;}}
+\viewkind4\uc1\pard\sl240\slmult1\f0\fs18\lang9 Forbereder:\par}"
+FinishMessage="{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Tahoma;}}
+\viewkind4\uc1\pard\sl240\slmult1\f0\fs30\lang9 Installasjonen er fullført\par\fs16\par\par\par
+%product% har blitt installert.\par}"
+;!@InstallEnd@:Language:1044!
+
+;!@Install@!UTF-8:Language:1045!
+CancelPrompt="Czy na pewno chcesz anulować?"
+ExtractTitle="Wyodrębnianie plików"
+ExtractDialogText="{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Tahoma;}}
+\viewkind4\uc1\pard\sl240\slmult1\f0\fs18\lang9 Przygotowywanie:\par}"
+FinishMessage="{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Tahoma;}{\f1\fnil\fcharset238 Tahoma;}}
+\viewkind4\uc1\pard\sl240\slmult1\f0\fs30\lang9 Instalacja zako\f1 ń\f0 czona\par\fs16\par\par\par
+Program %product% zosta\f1 ł\f0  zainstalowany.\par}"
+;!@InstallEnd@:Language:1045!
+
+;!@Install@!UTF-8:Language:1046!
+CancelPrompt="Tem certeza de que deseja cancelar?"
+ExtractTitle="Extraindo arquivos"
+ExtractDialogText="{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Tahoma;}}
+\viewkind4\uc1\pard\sl240\slmult1\f0\fs18\lang9 Preparando:\par}"
+FinishMessage="{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Tahoma;}}
+\viewkind4\uc1\pard\sl240\slmult1\f0\fs30\lang9 Instalação Concluída\par\fs16\par\par\par
+O %product% foi instalado.\par}"
+;!@InstallEnd@:Language:1046!
+
+;!@Install@!UTF-8:Language:1049!
+CancelPrompt="Вы действительно хотите выполнить отмену?"
+ExtractTitle="Извлечение файлов"
+ExtractDialogText="{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset204 Tahoma;}}
+\viewkind4\uc1\pard\sl240\slmult1\f0\fs18\lang1049 Подготовка:\lang9\par}"
+FinishMessage="{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset204 Tahoma;}}
+\viewkind4\uc1\pard\sl240\slmult1\f0\fs30\lang1049 Установка завершена\par\fs16\par\par\par
+Установка %product% завершена.\par}"
+;!@InstallEnd@:Language:1049!
+
+;!@Install@!UTF-8:Language:1053!
+CancelPrompt="Vill du avbryta?"
+ExtractTitle="Filer extraheras"
+ExtractDialogText="{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Tahoma;}}
+\viewkind4\uc1\pard\sl240\slmult1\f0\fs18\lang9 Förbereder:\par}"
+FinishMessage="{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Tahoma;}}
+\viewkind4\uc1\pard\sl240\slmult1\f0\fs30\lang9 Installationen har slutförts\par\fs16\par\par\par
+%product% har installerats.\par}"
+;!@InstallEnd@:Language:1053!
+
+;!@Install@!UTF-8:Language:1055!
+CancelPrompt="İptal etmek istediğinizden emin misiniz?"
+ExtractTitle="Dosyalar ayıklanıyor"
+ExtractDialogText="{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Tahoma;}{\f1\fnil\fcharset238 Tahoma;}}
+\viewkind4\uc1\pard\sl240\slmult1\f0\fs18\lang9 Haz\f1 ı\f0 rlan\f1 ı\f0 yor:\par}"
+FinishMessage="{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Tahoma;}{\f1\fnil\fcharset238 Tahoma;}}
+\viewkind4\uc1\pard\sl240\slmult1\f0\fs30\lang9 Yükleme Tamamland\f1 ı\par\fs16\par\par\par
+\f0 %product% yüklendi.\par}"
+;!@InstallEnd@:Language:1055!
+
+;!@Install@!UTF-8:Language:2052!
+CancelPrompt="是否确实要取消?"
+ExtractTitle="正在提取文件"
+ExtractDialogText="{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fprq2\fcharset134 SimSun;}}
+\viewkind4\uc1\pard\sl240\slmult1\f0\fs18\lang2052 正在准备:\par}"
+FinishMessage="{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fprq2\fcharset134 SimSun;}{\f1\fnil\fcharset0 Tahoma;}}
+\viewkind4\uc1\pard\sl240\slmult1\f0\fs30\lang2052 安装完毕\par\fs16\par\par\par
+已安装 \f1 %product%\f0 。\par}"
+;!@InstallEnd@:Language:2052!
+
+;!@Install@!UTF-8:Language:2070!
+CancelPrompt="Tem a certeza de que pretende cancelar?"
+ExtractTitle="A extrair ficheiros"
+ExtractDialogText="{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Tahoma;}}
+\viewkind4\uc1\pard\sl240\slmult1\f0\fs18\lang9 A Preparar:\par}"
+FinishMessage="{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Tahoma;}}
+\viewkind4\uc1\pard\sl240\slmult1\f0\fs30\lang9 Instalação está Concluída\par\fs16\par\par\par
+O %product% foi instalado.\par}"
+;!@InstallEnd@:Language:2070!
+
+;!@Install@!UTF-8:Language:3082!
+CancelPrompt="¿Está seguro de que desea cancelar la operación?"
+ExtractTitle="Extrayendo archivos"
+ExtractDialogText="{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Tahoma;}}
+\viewkind4\uc1\pard\sl240\slmult1\f0\fs18\lang9 Preparando:\par}"
+FinishMessage="{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Tahoma;}}
+\viewkind4\uc1\pard\sl240\slmult1\f0\fs30\lang9 Se completó la instalación\par\fs16\par\par\par
+Se instaló %product%.\par}"
+;!@InstallEnd@:Language:3082!
