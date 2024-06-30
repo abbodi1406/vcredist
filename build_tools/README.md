@@ -206,7 +206,7 @@ rmdir /s /q vc64\ vc86\
 
 ## Legacy VB/C++
 
-- Extract **VBCRun.7z**
+- Download and extract [VBCRun.7z](https://github.com/abbodi1406/vcredist/raw/master/build_tools/_vbc/VBCRun.7z)
 - Build VB/C++ MSI
 ```
 candle.exe vbcrun.wxs
