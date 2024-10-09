@@ -118,9 +118,6 @@ Quiet mode. *Only* VC++ packages are installed.
 /aiM  
 Manual Install mode, shows installation script with prompt.
 
-/aiU  
-Manual Uninstall mode, shows uninstallation script with prompt.
-
 /aiR  
 Auto Uninstall mode, remove all detected runtimes.
 
@@ -132,6 +129,9 @@ Manual Hide or Show Runtimes entries in Add/Remove Programs panel.
 
 /ai1  
 Update mode. Only already installed packages are updated.
+
+/aiF  
+Repair mode. Only already installed packages are reinstalled or updated.
 
 /gm2  
 Optional switch to disable extraction dialog for all other switches.
