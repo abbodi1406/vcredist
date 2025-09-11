@@ -25,7 +25,8 @@ old general AIO v35 pack itself has partial support.
 2010: 10.0.40219.473  
 2012: 11.0.61135.400  
 2013: 12.0.40664.0  
-2022: Latest
+2022: Latest  
+2026: Insider
 
 - Visual Studio 2010 Tools for Office Runtime (x86/x64)  
 10.0.60922
@@ -43,6 +44,17 @@ installed with VC++ 2019 redist for Windows XP.
 this repack will install KB3118401 if UCRT is not available.  
 
 - VC++ 2022 runtimes are binary compatible with VC++ 2015-2017-2019 and cover all VS 2015-2017-2019-2022 programs.
+
+- VC++ 2026 runtimes for Windows 10/11 are binary compatible with all VC++ 2015-2017-2019-2022.
+
+- Note:  
+by design, Microsoft Windows Installer creates restore point for each msi package, if System Restore is active.
+
+## Windows 7/8/8.1 Notice:
+
+* VC++ 2022 version 14.44.35211.0 = [VisualCppRedist_AIO v0.92.0](https://github.com/abbodi1406/vcredist/releases/tag/v0.92.0) will the last version compatible with Windows 7/8/8.1
+
+newer servicing versions of the same 14.44.35xxx.x range might get released in future. The AIO repack will be updated accordingly by then.
 
 ## Windows Vista Notice:
 
