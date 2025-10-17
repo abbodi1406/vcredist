@@ -56,7 +56,7 @@ this repack will install KB3118401 if UCRT is not available.
 
 - VC++ 2022 runtimes are binary compatible with VC++ 2015-2017-2019 and cover all VS 2015-2017-2019-2022 programs.
 
-- VC++ 2026 runtimes are binary compatible and cover all VS 2015-2017-2019-2022-2025 programs.
+- VC++ 2026 runtimes are binary compatible and cover all VS 2015-2017-2019-2022-2026 programs.
 
 ## Windows Vista Notice:
 
