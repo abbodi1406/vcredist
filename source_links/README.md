@@ -5,6 +5,13 @@
 <details><summary>2026</summary>
 
 
+14.51.36231.0
+```
+https://download.visualstudio.microsoft.com/download/pr/c1bd4f2c-3672-468e-8480-7ed419dbb641/90E48ADE404E4576D023ABFA374F323555F233982A8805EA9AC63DCA9491A16B/VC_redist.x64.exe
+https://download.visualstudio.microsoft.com/download/pr/b60c012d-a759-4c42-aa95-4e534cb79317/B6AB675F0A27E6600F9726E75DEA08D99C15F8EA4B842A2A1D988FA9529D39B9/VC_redist.x86.exe
+https://download.visualstudio.microsoft.com/download/pr/b60c012d-a759-4c42-aa95-4e534cb79317/E912E9E653A5295A382BF86521F9B852AEECA823F4A9BF10BB2FBA7DD9445288/VC_redist.arm64.exe
+```
+
 14.50.35719.0
 ```
 https://download.visualstudio.microsoft.com/download/pr/6f02464a-5e9b-486d-a506-c99a17db9a83/8995548DFFFCDE7C49987029C764355612BA6850EE09A7B6F0FDDC85BDC5C280/VC_redist.x64.exe
@@ -46,7 +53,7 @@ ______________________________
 <details><summary>2022</summary>
 
 
-14.44.35211.0
+14.44.35211.0 - **last version compatible with Windows 7/8/8.1**
 ```
 https://download.visualstudio.microsoft.com/download/pr/73aabf2e-9532-4f68-99f7-3247081a619c/CC0FF0EB1DC3F5188AE6300FAEF32BF5BEEBA4BDD6E8E445A9184072096B713B/VC_redist.x64.exe
 https://download.visualstudio.microsoft.com/download/pr/73aabf2e-9532-4f68-99f7-3247081a619c/0C09F2611660441084CE0DF425C51C11E147E6447963C3690F97E0B25C55ED64/VC_redist.x86.exe
@@ -519,7 +526,7 @@ https://download.visualstudio.microsoft.com/download/pr/a59bd032-813f-4f57-9f01-
 https://download.visualstudio.microsoft.com/download/pr/a59bd032-813f-4f57-9f01-c7eae0225894/1B570D25A8C982911041ACA89FB139C5B62CE628D7BB412AD641BCDED866CB9B/VC_redist.arm64.exe
 ```
 
-14.29.30030.0
+14.29.30030.0 - **first version for vc_redist.x64.exe to include arm64 msi**
 ```
 https://download.visualstudio.microsoft.com/download/pr/8848a076-abd9-4f93-b981-aaca5c41577e/F0F192C83B44626B2760EDC79248C09C4FF5F73F66F1D243B6A93F8715F723EB/VC_redist.x64.exe
 https://download.visualstudio.microsoft.com/download/pr/8848a076-abd9-4f93-b981-aaca5c41577e/39664849DED638283FE48E456EB93D0F3294DE445100151AF0C5DEAF3C2EB348/VC_redist.x86.exe
@@ -590,7 +597,7 @@ https://download.visualstudio.microsoft.com/download/pr/7f220946-40a5-4478-be8f-
 https://download.visualstudio.microsoft.com/download/pr/7f220946-40a5-4478-be8f-ffb38fbdc485/D1D41A1B63FCF767F78560C982C230E4C2D3CAE0D54EF13CD5D183DAA7889179/VC_redist.arm64.exe
 ```
 
-14.28.29617.0
+14.28.29617.0 - **first version for vc_redist.arm64.exe to support Arm64X**
 ```
 https://download.visualstudio.microsoft.com/download/pr/1415835d-76a5-42c8-9aeb-baa77ae9f964/D0290C14D84DD077D443CD9E51C8E5A1443AA3363F06A2BA84D1FDE4637441EE/VC_redist.x64.exe
 https://download.visualstudio.microsoft.com/download/pr/1415835d-76a5-42c8-9aeb-baa77ae9f964/9F0B39C6C9E957C15604C8356549B0830B2241A45FD9852DEFED39B4E35DE27E/VC_redist.x86.exe

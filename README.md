@@ -241,13 +241,15 @@ manually uninstall any VC++ 2022 runtimes with version 14.50.xxxxxx or later
 
 run the installer with switch `/ai7`
 
+- switches `/ai7` and `/aiT` have no effect for the Arm64 repack.
+
 ## Download
 
 - Latest release zip file:  
-https://kutt.it/vcppredist  
+https://kutt.to/vcppredist  
 https://www.tinyplease.com/vcredist
 - Latest release exe file:  
-https://kutt.it/vcpp  
+https://kutt.to/vcpp  
 https://www.tinyplease.com/vcpp
 - All releases:  
 https://gitlab.com/stdout12/vcredist/-/releases  
