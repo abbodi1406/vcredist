@@ -21,75 +21,49 @@ AutoInstallM="Installer.cmd"
 ;[/aiP] Hide/Show ARP
 AutoInstallP="ARP.cmd"
 
-;[/aiN] Show ARP, Hide INF
-AutoInstallN="hidcon:ARP.cmd /uinf"
-
 ;[/aiU] Remove, Prompt
 AutoInstallU="Uninstaller.cmd"
 
 ;[/aiR] Remove, Auto
 AutoInstallR="hidcon:Uninstaller.cmd /auto"
 
-;[/aiF] Quiet, Repair mode
-AutoInstallF="hidcon:Installer.cmd /repair"
-
-;[/ai1] Quiet, Update mode
+;[/ai1] Update ONLY
 AutoInstall1="hidcon:Installer.cmd /update"
 
 ;[/ai5] 2005 ONLY
 AutoInstall5="x64:2005\\x64\\vcredist.msi /qn /norestart"
-AutoInstall5="x64:waitall:hidcon:cmd.exe /c reg query %msi%\%m05x64% && (%nat% %i05x64%.%sec%)"
 AutoInstall5="2005\\x86\\vcredist.msi /qn /norestart"
-AutoInstall5="waitall:hidcon:cmd.exe /c reg query %msi%\%m05x86% && (%dll% %i05x86%.%sec%)"
 
 ;[/ai8] 2008 ONLY
 AutoInstall8="x64:2008\\x64\\vc_red.msi /qn /norestart"
-AutoInstall8="x64:waitall:hidcon:cmd.exe /c reg query %msi%\%m08x64% && (%nat% %i08x64%.%sec%)"
 AutoInstall8="2008\\x86\\vc_red.msi /qn /norestart"
-AutoInstall8="waitall:hidcon:cmd.exe /c reg query %msi%\%m08x86% && (%dll% %i08x86%.%sec%)"
 
 ;[/aiX] 2010 ONLY
 AutoInstallX="x64:2010\\x64\\vc_red.msi /qn /norestart"
-AutoInstallX="x64:waitall:hidcon:cmd.exe /c reg query %msi%\%m10x64% && (%nat% %i10x64%.%sec%)"
 AutoInstallX="2010\\x86\\vc_red.msi /qn /norestart"
-AutoInstallX="waitall:hidcon:cmd.exe /c reg query %msi%\%m10x86% && (%dll% %i10x86%.%sec%)"
 
 ;[/ai2] 2012 ONLY
 AutoInstall2="x64:2012\\x64\\vc_runtimeMinimum_x64.msi /qn /norestart"
 AutoInstall2="x64:2012\\x64\\vc_runtimeAdditional_x64.msi /qn /norestart"
-AutoInstall2="x64:waitall:hidcon:cmd.exe /c reg query %msi%\%m12x64% && (%nat% %i12x64%.%sec%)"
 AutoInstall2="2012\\x86\\vc_runtimeMinimum_x86.msi /qn /norestart"
 AutoInstall2="2012\\x86\\vc_runtimeAdditional_x86.msi /qn /norestart"
-AutoInstall2="waitall:hidcon:cmd.exe /c reg query %msi%\%m12x86% && (%dll% %i12x86%.%sec%)"
 
 ;[/ai3] 2013 ONLY
 AutoInstall3="x64:2013\\x64\\vc_runtimeMinimum_x64.msi /qn /norestart"
 AutoInstall3="x64:2013\\x64\\vc_runtimeAdditional_x64.msi /qn /norestart"
-AutoInstall3="x64:waitall:hidcon:cmd.exe /c reg query %msi%\%m13x64% && (%nat% %i13x64%.%sec%)"
 AutoInstall3="2013\\x86\\vc_runtimeMinimum_x86.msi /qn /norestart"
 AutoInstall3="2013\\x86\\vc_runtimeAdditional_x86.msi /qn /norestart"
-AutoInstall3="waitall:hidcon:cmd.exe /c reg query %msi%\%m13x86% && (%dll% %i13x86%.%sec%)"
 
-;[/ai7] 2022 ONLY
-AutoInstall7="x64:2022\\x64\\vc_runtimeMinimum_x64.msi /qn /norestart"
-AutoInstall7="x64:2022\\x64\\vc_runtimeAdditional_x64.msi /qn /norestart"
-AutoInstall7="x64:waitall:hidcon:cmd.exe /c reg query %msi%\%m22x64% && (%nat% %i22x64%.%sec%)"
-AutoInstall7="2022\\x86\\vc_runtimeMinimum_x86.msi /qn /norestart"
-AutoInstall7="2022\\x86\\vc_runtimeAdditional_x86.msi /qn /norestart"
-AutoInstall7="waitall:hidcon:cmd.exe /c reg query %msi%\%m22x86% && (%dll% %i22x86%.%sec%)"
-AutoInstall7="hidcon:Installer.cmd /uc14"
-
-;[/ai9] 2026 ONLY, Win 10/11
-AutoInstall9="x64:hidcon:cmd.exe /c dir /b %svc%.* && (start /w 2026\\x64\\vc_runtimeMinimum_x64.msi /qn /norestart) || (start /w 2022\\x64\\vc_runtimeMinimum_x64.msi /qn /norestart)"
-AutoInstall9="x64:hidcon:cmd.exe /c dir /b %svc%.* && (start /w 2026\\x64\\vc_runtimeAdditional_x64.msi /qn /norestart) || (start /w 2022\\x64\\vc_runtimeAdditional_x64.msi /qn /norestart)"
-AutoInstall9="x64:waitall:hidcon:cmd.exe /c dir /b %svc%.* && (reg query %msi%\%m26x64% && (%nat% %i26x64%.%sec%)) || (reg query %msi%\%m22x64% && (%nat% %i22x64%.%sec%))"
-AutoInstall9="hidcon:cmd.exe /c dir /b %svc%.* && (start /w 2026\\x86\\vc_runtimeMinimum_x86.msi /qn /norestart) || (start /w 2022\\x86\\vc_runtimeMinimum_x86.msi /qn /norestart)"
-AutoInstall9="hidcon:cmd.exe /c dir /b %svc%.* && (start /w 2026\\x86\\vc_runtimeAdditional_x86.msi /qn /norestart) || (start /w 2022\\x86\\vc_runtimeAdditional_x86.msi /qn /norestart)"
-AutoInstall9="waitall:hidcon:cmd.exe /c dir /b %svc%.* && (reg query %msi%\%m26x86% && (%dll% %i26x86%.%sec%)) || (reg query %msi%\%m22x86% && (%dll% %i22x86%.%sec%))"
+;[/ai9] 2022 ONLY
+AutoInstall9="x64:2022\\x64\\vc_runtimeMinimum_x64.msi /qn /norestart"
+AutoInstall9="x64:2022\\x64\\vc_runtimeAdditional_x64.msi /qn /norestart"
+AutoInstall9="2022\\x86\\vc_runtimeMinimum_x86.msi /qn /norestart"
+AutoInstall9="2022\\x86\\vc_runtimeAdditional_x86.msi /qn /norestart"
+AutoInstall9="hidcon:Installer.cmd /uc14"
 
 ;[/aiT] VSTOR ONLY
 AutoInstallT="x64:VSTOR\\vstor40_x64.msi /qn /norestart"
-AutoInstallT="hidcon:cmd.exe /c dir /b /s %ssu% || (start /w VSTOR\\vstor40_x86.msi /qn /norestart)"
+AutoInstallT="x86:VSTOR\\vstor40_x86.msi /qn /norestart"
 
 ;[/aiE] EXTRA VB/C ONLY
 AutoInstallE="MsiExec.exe /X{C5E3A69D-D392-45A6-A8FB-00B01E2B010D} /quiet /norestart"
@@ -126,25 +100,24 @@ HelpText="{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil
 \tab\tab All switches are optional, *case-sensitive*.\par\par
 /y - Passive mode, shows progress. *All* Runtime packages are installed.\par
 /ai - Quiet mode, no output shown. *All* Runtime packages are installed.\par
+/aiA - Quiet mode. *All* Runtime packages are installed, and hide ARP entries.\par
 /ai5 - Quiet mode. *Only* 2005 package is installed.\par
 /ai8 - Quiet mode. *Only* 2008 package is installed.\par
 /aiX - Quiet mode. *Only* 2010 package is installed.\par
 /ai2 - Quiet mode. *Only* 2012 package is installed.\par
 /ai3 - Quiet mode. *Only* 2013 package is installed.\par
-/ai7 - Quiet mode. *Only* 2022 package is installed.\par
-/ai9 - Quiet mode. *Only* 2026 package is installed for Win 10/11.\par
-/aiT - Quiet mode. *Only* VSTOR package is installed.\par
+/ai9 - Quiet mode. *Only* 2022 package is installed.\par
+/aiT - Quiet mode. *Only* VSTOR 2010 package is installed.\par
 /aiE - Quiet mode. *Only* Extra VB/C package is installed.\par
 /aiB - Quiet mode. *Only* Extra VB package is installed.\par
 /aiC - Quiet mode. *Only* Extra VC package is installed.\par
 /aiV - Quiet mode. *Only* VC++ packages are installed.\par
 /aiM - Manual Install mode, shows installation script with prompt.\par
-/aiR - Uninstall mode, auto remove all detected runtimes.\par
+/aiU - Manual Uninstall mode, shows uninstallation script with prompt.\par
+/aiR - Auto Uninstall mode, remove all detected runtimes.\par
 /aiD - Debug mode, create VCpp_debug.log without install/uninstall any package.\par
 /aiP - Manual Hide or Show Runtimes entries in Add/Remove Programs panel.\par
-/aiN - Show original Runtimes entries and hide INF override entries.\par
 /ai1 - Update mode. Only already installed packages are updated.\par
-/aiF - Repair mode. Only already installed packages are reinstalled or updated.\par
 /gm2 - Optional switch to disable extraction dialog for all other switches\par
 \par
 Examples:\par
@@ -152,50 +125,18 @@ Automatically install all packages and display progress:\par
 %%M /y\par
 Silently install all packages and display no progress:\par
 %%M /ai /gm2\par
-Silently install 2022/2026 package:\par
-%%M /ai9 /gm2\par
-Silently install 2010/2012/2013 and Extra VB/C packages:\par
-%%M /aiX23E\par
-Only update already installed packages:\par
-%%M /ai1\par
-\par\par
+Silently install 2022 package:\par
+%%M /ai9\par
+Silently install 2010/2012/2013/2022 packages:\par
+%%M /aiX239\par
+Silently install VSTOR and Extra VB/C packages:\par
+%%M /aiTE\par
+Silently install all packages and hide ARP entries:\par
+%%M /aiA /gm2\par
+\par
 (c) Microsoft Corporation. All Rights Reserved.\par}"
 
 SetEnvironment="product=Visual C++ Redistributable"
-SetEnvironment="dll=rundll32.exe advpack.dll,LaunchINFSectionEx"
-SetEnvironment="nat=%SfxFolder36%\\Sysnative\\%dll%"
-SetEnvironment="svc=%SfxFolder36%\\servicing\\Version\\10"
-SetEnvironment="ssu=%SfxFolder36%\\servicing\\Version\\a*64_installed"
-SetEnvironment="sec=inf,Install,,12,N"
-SetEnvironment="i05x86=.\\2005\\x86\\vcred08_x86"
-SetEnvironment="i08x86=.\\2008\\x86\\vcred09_x86"
-SetEnvironment="i10x86=.\\2010\\x86\\vcred10_x86"
-SetEnvironment="i12x86=.\\2012\\x86\\vcred11_x86"
-SetEnvironment="i13x86=.\\2013\\x86\\vcred12_x86"
-SetEnvironment="i22x86=.\\2022\\x86\\vcred14_x86"
-SetEnvironment="i26x86=.\\2026\\x86\\vcred14_x86"
-SetEnvironment="i05x64=.\\2005\\x64\\vcred08_x64"
-SetEnvironment="i08x64=.\\2008\\x64\\vcred09_x64"
-SetEnvironment="i10x64=.\\2010\\x64\\vcred10_x64"
-SetEnvironment="i12x64=.\\2012\\x64\\vcred11_x64"
-SetEnvironment="i13x64=.\\2013\\x64\\vcred12_x64"
-SetEnvironment="i22x64=.\\2022\\x64\\vcred14_x64"
-SetEnvironment="i26x64=.\\2026\\x64\\vcred14_x64"
-SetEnvironment="msi=HKLM\\SOFTWARE\\Classes\\Installer\\Features"
-SetEnvironment="m05x86=c1c4f01781cc94c4c8fb1542c0981a2a"
-SetEnvironment="m08x86=6E815EB96CCE9A53884E7857C57002F0"
-SetEnvironment="m10x86=1D5E3C0FEDA1E123187686FED06E995A"
-SetEnvironment="m12x86=DC8A59DBF9D1DA5389A1E3975220E6BB"
-SetEnvironment="m13x86=1BAD2218D4DE6763BBA0AC63186945E3"
-SetEnvironment="m22x86=5B084229BEACB1B4AA4A7961FECD2EB6"
-SetEnvironment="m26x86=81EC7FB4151EF9441909C6BDDEB04B2A"
-SetEnvironment="m05x64=1af2a8da7e60d0b429d7e6453b3d0182"
-SetEnvironment="m08x64=67D6ECF5CD5FBA732B8B22BAC8DE1B4D"
-SetEnvironment="m10x64=1926E8D15D0BCE53481466615F760A7F"
-SetEnvironment="m12x64=C3AEB2FCAE628F23AAB933F1E743AB79"
-SetEnvironment="m13x64=4396FC35D89A48D31964CFE4FDD36514"
-SetEnvironment="m22x64=101D0B34220A4F84D940AB04C4BED135"
-SetEnvironment="m26x64=0FC2A1394042AE54285F437553EAA609"
 
 Title="Microsoft %product% Setup"
 ;!@InstallEnd@!

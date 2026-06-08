@@ -37,59 +37,39 @@ AutoInstallF="hidcon:Installer.cmd /repair"
 AutoInstall1="hidcon:Installer.cmd /update"
 
 ;[/ai5] 2005 ONLY
-AutoInstall5="x64:2005\\x64\\vcredist.msi /qn /norestart"
-AutoInstall5="x64:waitall:hidcon:cmd.exe /c reg query %msi%\%m05x64% && (%nat% %i05x64%.%sec%)"
 AutoInstall5="2005\\x86\\vcredist.msi /qn /norestart"
 AutoInstall5="waitall:hidcon:cmd.exe /c reg query %msi%\%m05x86% && (%dll% %i05x86%.%sec%)"
 
 ;[/ai8] 2008 ONLY
-AutoInstall8="x64:2008\\x64\\vc_red.msi /qn /norestart"
-AutoInstall8="x64:waitall:hidcon:cmd.exe /c reg query %msi%\%m08x64% && (%nat% %i08x64%.%sec%)"
 AutoInstall8="2008\\x86\\vc_red.msi /qn /norestart"
 AutoInstall8="waitall:hidcon:cmd.exe /c reg query %msi%\%m08x86% && (%dll% %i08x86%.%sec%)"
 
 ;[/aiX] 2010 ONLY
-AutoInstallX="x64:2010\\x64\\vc_red.msi /qn /norestart"
-AutoInstallX="x64:waitall:hidcon:cmd.exe /c reg query %msi%\%m10x64% && (%nat% %i10x64%.%sec%)"
 AutoInstallX="2010\\x86\\vc_red.msi /qn /norestart"
 AutoInstallX="waitall:hidcon:cmd.exe /c reg query %msi%\%m10x86% && (%dll% %i10x86%.%sec%)"
 
 ;[/ai2] 2012 ONLY
-AutoInstall2="x64:2012\\x64\\vc_runtimeMinimum_x64.msi /qn /norestart"
-AutoInstall2="x64:2012\\x64\\vc_runtimeAdditional_x64.msi /qn /norestart"
-AutoInstall2="x64:waitall:hidcon:cmd.exe /c reg query %msi%\%m12x64% && (%nat% %i12x64%.%sec%)"
 AutoInstall2="2012\\x86\\vc_runtimeMinimum_x86.msi /qn /norestart"
 AutoInstall2="2012\\x86\\vc_runtimeAdditional_x86.msi /qn /norestart"
 AutoInstall2="waitall:hidcon:cmd.exe /c reg query %msi%\%m12x86% && (%dll% %i12x86%.%sec%)"
 
 ;[/ai3] 2013 ONLY
-AutoInstall3="x64:2013\\x64\\vc_runtimeMinimum_x64.msi /qn /norestart"
-AutoInstall3="x64:2013\\x64\\vc_runtimeAdditional_x64.msi /qn /norestart"
-AutoInstall3="x64:waitall:hidcon:cmd.exe /c reg query %msi%\%m13x64% && (%nat% %i13x64%.%sec%)"
 AutoInstall3="2013\\x86\\vc_runtimeMinimum_x86.msi /qn /norestart"
 AutoInstall3="2013\\x86\\vc_runtimeAdditional_x86.msi /qn /norestart"
 AutoInstall3="waitall:hidcon:cmd.exe /c reg query %msi%\%m13x86% && (%dll% %i13x86%.%sec%)"
 
 ;[/ai7] 2022 ONLY
-AutoInstall7="x64:2022\\x64\\vc_runtimeMinimum_x64.msi /qn /norestart"
-AutoInstall7="x64:2022\\x64\\vc_runtimeAdditional_x64.msi /qn /norestart"
-AutoInstall7="x64:waitall:hidcon:cmd.exe /c reg query %msi%\%m22x64% && (%nat% %i22x64%.%sec%)"
-AutoInstall7="2022\\x86\\vc_runtimeMinimum_x86.msi /qn /norestart"
-AutoInstall7="2022\\x86\\vc_runtimeAdditional_x86.msi /qn /norestart"
-AutoInstall7="waitall:hidcon:cmd.exe /c reg query %msi%\%m22x86% && (%dll% %i22x86%.%sec%)"
-AutoInstall7="hidcon:Installer.cmd /uc14"
+AutoInstall7="hidcon:cmd.exe /c echo."
 
 ;[/ai9] 2026 ONLY, Win 10/11
-AutoInstall9="x64:hidcon:cmd.exe /c dir /b %svc%.* && (start /w 2026\\x64\\vc_runtimeMinimum_x64.msi /qn /norestart) || (start /w 2022\\x64\\vc_runtimeMinimum_x64.msi /qn /norestart)"
-AutoInstall9="x64:hidcon:cmd.exe /c dir /b %svc%.* && (start /w 2026\\x64\\vc_runtimeAdditional_x64.msi /qn /norestart) || (start /w 2022\\x64\\vc_runtimeAdditional_x64.msi /qn /norestart)"
-AutoInstall9="x64:waitall:hidcon:cmd.exe /c dir /b %svc%.* && (reg query %msi%\%m26x64% && (%nat% %i26x64%.%sec%)) || (reg query %msi%\%m22x64% && (%nat% %i22x64%.%sec%))"
+AutoInstall9="hidcon:cmd.exe /c dir /b /s %woa% && (start /w 2026\\arm64\\VC_Runtime_arm64.msi /qn /norestart)"
+AutoInstall9="waitall:hidcon:cmd.exe /c dir /b /s %woa% && (reg query %msi%\%m26a64% && (%nat% %i26a64%.%sec%))"
 AutoInstall9="hidcon:cmd.exe /c dir /b %svc%.* && (start /w 2026\\x86\\vc_runtimeMinimum_x86.msi /qn /norestart) || (start /w 2022\\x86\\vc_runtimeMinimum_x86.msi /qn /norestart)"
 AutoInstall9="hidcon:cmd.exe /c dir /b %svc%.* && (start /w 2026\\x86\\vc_runtimeAdditional_x86.msi /qn /norestart) || (start /w 2022\\x86\\vc_runtimeAdditional_x86.msi /qn /norestart)"
 AutoInstall9="waitall:hidcon:cmd.exe /c dir /b %svc%.* && (reg query %msi%\%m26x86% && (%dll% %i26x86%.%sec%)) || (reg query %msi%\%m22x86% && (%dll% %i22x86%.%sec%))"
 
 ;[/aiT] VSTOR ONLY
-AutoInstallT="x64:VSTOR\\vstor40_x64.msi /qn /norestart"
-AutoInstallT="hidcon:cmd.exe /c dir /b /s %ssu% || (start /w VSTOR\\vstor40_x86.msi /qn /norestart)"
+AutoInstallT="hidcon:cmd.exe /c echo."
 
 ;[/aiE] EXTRA VB/C ONLY
 AutoInstallE="MsiExec.exe /X{C5E3A69D-D392-45A6-A8FB-00B01E2B010D} /quiet /norestart"
@@ -165,7 +145,7 @@ SetEnvironment="product=Visual C++ Redistributable"
 SetEnvironment="dll=rundll32.exe advpack.dll,LaunchINFSectionEx"
 SetEnvironment="nat=%SfxFolder36%\\Sysnative\\%dll%"
 SetEnvironment="svc=%SfxFolder36%\\servicing\\Version\\10"
-SetEnvironment="ssu=%SfxFolder36%\\servicing\\Version\\a*64_installed"
+SetEnvironment="woa=%SfxFolder36%\\servicing\\Version\\arm64_installed"
 SetEnvironment="sec=inf,Install,,12,N"
 SetEnvironment="i05x86=.\\2005\\x86\\vcred08_x86"
 SetEnvironment="i08x86=.\\2008\\x86\\vcred09_x86"
@@ -174,13 +154,7 @@ SetEnvironment="i12x86=.\\2012\\x86\\vcred11_x86"
 SetEnvironment="i13x86=.\\2013\\x86\\vcred12_x86"
 SetEnvironment="i22x86=.\\2022\\x86\\vcred14_x86"
 SetEnvironment="i26x86=.\\2026\\x86\\vcred14_x86"
-SetEnvironment="i05x64=.\\2005\\x64\\vcred08_x64"
-SetEnvironment="i08x64=.\\2008\\x64\\vcred09_x64"
-SetEnvironment="i10x64=.\\2010\\x64\\vcred10_x64"
-SetEnvironment="i12x64=.\\2012\\x64\\vcred11_x64"
-SetEnvironment="i13x64=.\\2013\\x64\\vcred12_x64"
-SetEnvironment="i22x64=.\\2022\\x64\\vcred14_x64"
-SetEnvironment="i26x64=.\\2026\\x64\\vcred14_x64"
+SetEnvironment="i26a64=.\\2026\\arm64\\vcred14_arm64"
 SetEnvironment="msi=HKLM\\SOFTWARE\\Classes\\Installer\\Features"
 SetEnvironment="m05x86=c1c4f01781cc94c4c8fb1542c0981a2a"
 SetEnvironment="m08x86=6E815EB96CCE9A53884E7857C57002F0"
@@ -189,13 +163,7 @@ SetEnvironment="m12x86=DC8A59DBF9D1DA5389A1E3975220E6BB"
 SetEnvironment="m13x86=1BAD2218D4DE6763BBA0AC63186945E3"
 SetEnvironment="m22x86=5B084229BEACB1B4AA4A7961FECD2EB6"
 SetEnvironment="m26x86=81EC7FB4151EF9441909C6BDDEB04B2A"
-SetEnvironment="m05x64=1af2a8da7e60d0b429d7e6453b3d0182"
-SetEnvironment="m08x64=67D6ECF5CD5FBA732B8B22BAC8DE1B4D"
-SetEnvironment="m10x64=1926E8D15D0BCE53481466615F760A7F"
-SetEnvironment="m12x64=C3AEB2FCAE628F23AAB933F1E743AB79"
-SetEnvironment="m13x64=4396FC35D89A48D31964CFE4FDD36514"
-SetEnvironment="m22x64=101D0B34220A4F84D940AB04C4BED135"
-SetEnvironment="m26x64=0FC2A1394042AE54285F437553EAA609"
+SetEnvironment="m26a64=BF69862AF0014394698F0CD3CB4F101D"
 
 Title="Microsoft %product% Setup"
 ;!@InstallEnd@!
