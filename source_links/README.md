@@ -5,6 +5,13 @@
 <details><summary>2026</summary>
 
 
+14.52.37025.0
+```
+https://download.visualstudio.microsoft.com/download/pr/98bcc84f-0a9c-417c-a681-d88411dbb90f/7ACA0477C32519E54D888102ECF02495C8C05F83D61858A73BF75958DDC29835/VC_redist.x64.exe
+https://download.visualstudio.microsoft.com/download/pr/9b86116f-5f77-4f8f-8eba-bcea3cbdddc6/067B997E8E2D444EDA6F5ADCE816FCAB23154192C4C04F8EEBB24B01A757F4BF/VC_redist.x86.exe
+https://download.visualstudio.microsoft.com/download/pr/98bcc84f-0a9c-417c-a681-d88411dbb90f/D7396DB95BE3A5F0BC93E02BD915C856081DD5FED9F231A7065F26C57F60ADAC/VC_redist.arm64.exe
+```
+
 14.51.36247.0
 ```
 https://download.visualstudio.microsoft.com/download/pr/ebdab8e5-1d7b-4d9f-a11b-cbb1720c3b12/843068991DAAA1F73AD9F6239BCE4D0F6A07A51F18C37EA2A867E9BECA71295C/VC_redist.x64.exe
@@ -646,7 +653,7 @@ https://download.visualstudio.microsoft.com/download/pr/49eb0868-9b72-47af-a707-
 https://download.visualstudio.microsoft.com/download/pr/a23ce03b-5941-42cd-8d3f-9d08296c319f/13FCD8BF1E138BB748E8D7FB868C5E79BBFB6D1F7FE92025DB0029DE58E24B91/VC_redist.arm64.exe
 ```
 
-14.28.29213.0 - **last version compatible with Windows XP**
+14.28.29213.0 - **last version compatible with Windows XP** / released: 2020-08-12
 ```
 https://download.visualstudio.microsoft.com/download/pr/566435ac-4e1c-434b-b93f-aecc71e8cffc/B75590149FA14B37997C35724BC93776F67E08BFF9BD5A69FACBF41B3846D084/VC_redist.x64.exe
 https://download.visualstudio.microsoft.com/download/pr/566435ac-4e1c-434b-b93f-aecc71e8cffc/0D59EC7FDBF05DE813736BF875CEA5C894FFF4769F60E32E87BD48406BBF0A3A/VC_redist.x86.exe
@@ -660,7 +667,7 @@ https://download.visualstudio.microsoft.com/download/pr/6b03c53c-e1f7-4ac0-8e82-
 https://download.visualstudio.microsoft.com/download/pr/28bd19d3-af87-4c4e-859f-8a656db29219/2864526FAE9AEECE0A877E50B169A188A029058B21A64F5F27429B5D03AD0010/VC_redist.arm64.exe
 ```
 
-14.27.29114.0
+14.27.29114.0 - **last official version compatible with Windows XP** / released: 2020-10-26
 ```
 https://download.visualstudio.microsoft.com/download/pr/722d59e4-0671-477e-b9b1-b8da7d4bd60b/591CBE3A269AFBCC025681B968A29CD191DF3C6204712CBDC9BA1CB632BA6068/VC_redist.x64.exe
 https://download.visualstudio.microsoft.com/download/pr/56f631e5-4252-4f28-8ecc-257c7bf412b8/D305BAA965C9CD1B44EBCD53635EE9ECC6D85B54210E2764C8836F4E9DEFA345/VC_redist.x86.exe
@@ -1122,6 +1129,7 @@ https://download.visualstudio.microsoft.com/download/pr/10912113/5da66ddebb0ad32
 https://support.microsoft.com/en-us/help/3179560/update-for-visual-c-2013-and-visual-c-redistributable-package
 http://download.microsoft.com/download/0/5/6/056dcda9-d667-4e27-8001-8a0c6971d6b1/vcredist_x64.exe
 http://download.microsoft.com/download/0/5/6/056dcda9-d667-4e27-8001-8a0c6971d6b1/vcredist_x86.exe
+http://download.microsoft.com/download/0/5/6/056dcda9-d667-4e27-8001-8a0c6971d6b1/vcredist_arm.exe
 ```
 
 12.0.40649.5
