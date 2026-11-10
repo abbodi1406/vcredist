@@ -5,6 +5,13 @@
 <details><summary>2026</summary>
 
 
+14.52.37029.0
+```
+https://download.visualstudio.microsoft.com/download/pr/78d061c5-9ef3-42ab-98ed-3309d1095dc4/9C02C9ED120F671B900E6B9471D890E3B2414117A7E53F4AE2E855466FA2B7C9/VC_redist.x64.exe
+https://download.visualstudio.microsoft.com/download/pr/78d061c5-9ef3-42ab-98ed-3309d1095dc4/7B0117E6E20E9E349029C000A8A2715A52CF37C15B6BB697B2908E8BC7066CDF/VC_redist.x86.exe
+https://download.visualstudio.microsoft.com/download/pr/78d061c5-9ef3-42ab-98ed-3309d1095dc4/3C81BCF5B06156858362400D7066F65ECE38E8ACCB5E687FC65BEF5735F31FFC/VC_redist.arm64.exe
+```
+
 14.52.37025.0
 ```
 https://download.visualstudio.microsoft.com/download/pr/98bcc84f-0a9c-417c-a681-d88411dbb90f/7ACA0477C32519E54D888102ECF02495C8C05F83D61858A73BF75958DDC29835/VC_redist.x64.exe
@@ -1410,53 +1417,60 @@ http://web.archive.org/web/20130729085626/http://download.microsoft.com/download
 
 ______________________________
 
-## Microsoft Visual C++ .NET - v7
+## Microsoft Visual C++ .NET 2003 - v7.1
 
-<details><summary>2002/2003</summary>
+<details><summary>2003</summary>
 
 
-.NET 2003 msvcp71.dll - 7.10.6052.0 SP1 / msvcr71.dll - 7.10.7031.4 SP1
+msvcp71.dll - 7.10.6052.0 SP1 / msvcr71.dll - 7.10.7031.4 SP1
 ```
 https://www.betaarchive.com/wiki/index.php/Microsoft_KB_Archive/932298
-http://thehotfixshare.net/board/index.php?/topic/12472-vs71sp1-kb932298-x86-enuexe/
 ```
 
-.NET 2003 MFC71.DLL - 7.10.6119.0 SP1
+MFC71.DLL - 7.10.6119.0 SP1
 ```
 https://www.microsoft.com/en-us/download/details.aspx?id=6818
 http://download.microsoft.com/download/9/7/C/97CABE46-5FB8-4240-A54E-4C83B99116D9/VS7.1sp1-KB2465373-X86.exe
 ```
 
-.NET 2003 MFC71.DLL - 7.10.6101.0 SP1
+MFC71.DLL - 7.10.6101.0 SP1
 ```
 https://www.microsoft.com/en-us/download/details.aspx?id=23288
 http://download.microsoft.com/download/D/9/E/D9ECEE52-613F-4327-8147-073882D999F9/VS7.1sp1-KB971089-X86.exe
 ```
 
-.NET 2003 MFC71.DLL - 7.10.6041.0 SP1
+MFC71.DLL - 7.10.6041.0 SP1
 ```
 https://www.microsoft.com/en-us/download/details.aspx?id=17054
 http://download.microsoft.com/download/f/0/5/f052914b-3a0f-4e90-b039-395005f77ef2/VS7.1sp1-KB927696-X86.exe
 ```
 
-.NET 2003 MFC71.DLL - 7.10.5057.0 RTM
+MFC71.DLL - 7.10.5057.0 RTM
 ```
 http://www.microsoft.com/en-us/download/details.aspx?id=21440
 http://download.microsoft.com/download/5/8/6/586ac9db-5039-4955-9dbc-e4556128220f/VS7.1-KB924643-X86.exe
 ```
+</details>
 
-.NET 2002 msvcr70.dll - 7.0.9981.0 SP1
+______________________________
+
+## Microsoft Visual C++ .NET 2002 - v7.0
+
+<details><summary>2002</summary>
+
+
+msvcr70.dll - 7.0.9981.0 SP1
 ```
 https://www.betaarchive.com/wiki/index.php/Microsoft_KB_Archive/932304
 ```
 
-.NET 2002 MFC70.DLL - 7.0.9975.0 SP1
+MFC70.DLL - 7.0.9975.0 SP1
 ```
 https://www.microsoft.com/en-us/download/details.aspx?id=3644
 http://download.microsoft.com/download/6/b/e/6be11d8a-e0c7-429c-ac8c-9860e313ced9/VS7.0sp1-KB924642-X86.exe
 ```
 
-.NET 2002 MFC70.DLL - 7.0.9801.0 RTM
+MFC70.DLL - 7.0.9801.0 RTM
 ```
 https://www.microsoft.com/en-us/download/details.aspx?id=6430
 http://download.microsoft.com/download/9/8/0/980abbac-26af-42b9-959e-e104e2ef6579/VS7.0-KB924641-X86.exe
