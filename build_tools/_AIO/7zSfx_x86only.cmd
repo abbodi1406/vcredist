@@ -27,7 +27,7 @@ attrib -A .\* /S /D
 -mqs -mx -m0=BCJ2 -m1=LZMA:d26 -m2=LZMA:d19 -m3=LZMA:d19 -mb0:1 -mb0s1:2 -mb0s2:3 -bso0 ^
 %_d%
 copy /b 7zSfxMod.sfx + 7zSfxConfig86.txt + VisualCppRedist_AIO_x86.7z VisualCppRedist_AIO_x86only.exe && (
-attrib -A .\VisualCppRedist_AIO_x86.exe
+attrib -A .\VisualCppRedist_AIO_x86only.exe
 del /f /q VisualCppRedist_AIO_x86.7z
 )
 pause
